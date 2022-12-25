@@ -1,0 +1,160 @@
+;;;OPCODES.TXT
+;;;
+
+(out-file "vocab.998")
+(header (byte #x86 0))	;set up as a vocab resource
+
+
+;;;Defines for opcode information.
+(define	JUST_OP	0)		;Only operator -- no arguments
+(define	OP_ARGS	1)		;Operator takes arguments
+(define	OP_SIZE	2)		;Operator takes a size
+(define	OP_ARGSIZE	(+ OP_ARGS OP_SIZE))
+
+
+(JUST_OP		"bnot")
+(JUST_OP		"add")
+(JUST_OP		"sub")
+(JUST_OP		"mul")
+(JUST_OP		"div")
+(JUST_OP		"mod")
+(JUST_OP		"shr")
+(JUST_OP		"shl")
+(JUST_OP		"xor")
+(JUST_OP		"and")
+(JUST_OP		"or")
+
+(JUST_OP		"neg")
+(JUST_OP		"not")
+
+(JUST_OP		"eq?")
+(JUST_OP		"ne?")
+(JUST_OP		"gt?")
+(JUST_OP		"ge?")
+(JUST_OP		"lt?")
+(JUST_OP		"le?")
+
+(JUST_OP		"ugt?")
+(JUST_OP		"uge?")
+(JUST_OP		"ult?")
+(JUST_OP		"ule?")
+
+(OP_ARGSIZE	"bt")
+(OP_ARGSIZE	"bnt")
+(OP_ARGSIZE	"jmp")
+
+(OP_ARGSIZE	"ldi")
+(JUST_OP		"push")
+(OP_ARGSIZE	"pushi")
+(JUST_OP		"toss")
+(JUST_OP		"dup")
+(OP_ARGSIZE	"link")
+
+(OP_ARGSIZE	"call")
+(OP_ARGSIZE	"callk")
+(OP_ARGSIZE	"callb")
+(OP_ARGS		"calle")
+
+(JUST_OP		"ret")
+
+(JUST_OP		"send")
+(0)					;unused opcode
+(0)					;unused opcode
+
+(OP_ARGSIZE	"class")
+(0)					;unused opcode
+(JUST_OP		"self")
+(OP_ARGSIZE	"super")
+(OP_ARGS		"&rest")
+
+(OP_ARGSIZE	"lea")
+(JUST_OP		"selfID")
+(0)					;unused opcode
+(JUST_OP		"pprev")
+
+(OP_ARGSIZE	"pToa")
+(OP_ARGSIZE	"aTop")
+(OP_ARGSIZE	"pTos")
+(OP_ARGSIZE	"sTop")
+(OP_ARGSIZE	"ipToa")
+(OP_ARGSIZE	"dpToa")
+(OP_ARGSIZE	"ipTos")
+(OP_ARGSIZE	"dpTos")
+
+(OP_ARGSIZE	"lofsa")
+(OP_ARGSIZE	"lofss")
+
+(JUST_OP		"push0")
+(JUST_OP		"push1")
+(JUST_OP		"push2")
+(JUST_OP		"pushSelf")
+(0)
+
+
+;Now the load/store opcodes.
+
+(OP_ARGSIZE	"lag")
+(OP_ARGSIZE	"lal")
+(OP_ARGSIZE	"lat")
+(OP_ARGSIZE	"lap")
+(OP_ARGSIZE	"lsg")
+(OP_ARGSIZE	"lsl")
+(OP_ARGSIZE	"lst")
+(OP_ARGSIZE	"lsp")
+(OP_ARGSIZE	"lagi")
+(OP_ARGSIZE	"lali")
+(OP_ARGSIZE	"lati")
+(OP_ARGSIZE	"lapi")
+(OP_ARGSIZE	"lsgi")
+(OP_ARGSIZE	"lsli")
+(OP_ARGSIZE	"lsti")
+(OP_ARGSIZE	"lspi")
+(OP_ARGSIZE	"sag")
+(OP_ARGSIZE	"sal")
+(OP_ARGSIZE	"sat")
+(OP_ARGSIZE	"sap")
+(OP_ARGSIZE	"ssg")
+(OP_ARGSIZE	"ssl")
+(OP_ARGSIZE	"sst")
+(OP_ARGSIZE	"ssp")
+(OP_ARGSIZE	"sagi")
+(OP_ARGSIZE	"sali")
+(OP_ARGSIZE	"sati")
+(OP_ARGSIZE	"sapi")
+(OP_ARGSIZE	"ssgi")
+(OP_ARGSIZE	"ssli")
+(OP_ARGSIZE	"ssti")
+(OP_ARGSIZE	"sspi")
+(OP_ARGSIZE	"+ag")
+(OP_ARGSIZE	"+al")
+(OP_ARGSIZE	"+at")
+(OP_ARGSIZE	"+ap")
+(OP_ARGSIZE	"+sg")
+(OP_ARGSIZE	"+sl")
+(OP_ARGSIZE	"+st")
+(OP_ARGSIZE	"+sp")
+(OP_ARGSIZE	"+agi")
+(OP_ARGSIZE	"+ali")
+(OP_ARGSIZE	"+ati")
+(OP_ARGSIZE	"+api")
+(OP_ARGSIZE	"+sgi")
+(OP_ARGSIZE	"+sli")
+(OP_ARGSIZE	"+sti")
+(OP_ARGSIZE	"+spi")
+(OP_ARGSIZE	"-ag")
+(OP_ARGSIZE	"-al")
+(OP_ARGSIZE	"-at")
+(OP_ARGSIZE	"-ap")
+(OP_ARGSIZE	"-sg")
+(OP_ARGSIZE	"-sl")
+(OP_ARGSIZE	"-st")
+(OP_ARGSIZE	"-sp")
+(OP_ARGSIZE	"-agi")
+(OP_ARGSIZE	"-ali")
+(OP_ARGSIZE	"-ati")
+(OP_ARGSIZE	"-api")
+(OP_ARGSIZE	"-sgi")
+(OP_ARGSIZE	"-sli")
+(OP_ARGSIZE	"-sti")
+(OP_ARGSIZE	"-spi")
+

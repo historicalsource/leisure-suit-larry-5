@@ -1,0 +1,66 @@
+r250, l259
+						(ego put: iGoldCard)
+
+r258, l493
+				(ego put: iGoldCard)
+
+r280, l1888
+					(ego put: iQuarter)
+
+r290, l383
+							(ego put: iBoardingPass 0)
+
+r380, l247
+					(ego put: iGoldRecord)
+
+r380, L329
+						(ego put: iCassetteTape)
+						(ego put: iCassetteTape)
+						(ego put: iCassetteTape)
+				(ego put: iPhotocopies)
+					(ego put: iReelToReelTape)
+
+r510, L442
+					(ego put: iMoney)
+								(ego put: iCreditCards)
+							(ego put: iHDCNapkin curRoomNum)
+
+r520, L297
+					(ego put: iMembershipTape 0)
+
+r535, L371
+					(ego put: iMoney)
+					(ego put: iCreditCards)
+					(ego put: iDayTrotter)
+				(ego put: iDayTrotter)
+				(ego put: iCreditCards)
+				(ego put: iMoney)
+
+r640
+					(ego put: iGoldRecord)
+						(ego put: iGoldRecord)
+						(ego put: iGoldRecord)
+
+r660
+							(ego put: iChampagne)
+
+r700
+				(ego put: iSilverDollar 0)
+
+r720
+		(ego put: iSilverDollar 0)
+
+r790
+									(ego put: iSilverDollar 0)
+
+r840
+								(ego put: iLetterOpener)
+							(ego put: iFolderOfEvidence)
+							(ego setScript: putPapersScript)
+					(ego put: iDeskKey)
+
+r905
+						(ego put: iMagazine)
+
+r915
+				(ego put: iGreenCard)

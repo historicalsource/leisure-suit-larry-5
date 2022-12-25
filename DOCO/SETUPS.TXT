@@ -1,0 +1,40 @@
+Save setups for every scene, plus:
+	250 Airport Exterior as 
+		L. A.
+		NYC
+		Atlantic City
+		Miami
+	260 Airport Interior West as 
+		L. A.
+		NYC
+		Atlantic City
+		Miami
+	270 Airport Interior Middle as 
+		L. A.
+		NYC
+		Atlantic City
+		Miami
+	280 Airport Interior East as 
+		L. A.
+		NYC
+		Atlantic City
+		Miami
+	415 Dark Alley 2-shot
+	430 FBI Workshop West as
+		pre-inset gags
+		gag #1
+		gag #2
+		after Gyno-Man visit
+	440 FBI Workshop East as
+		pre-inset gags
+		during gag
+		after Gyno-Man visit
+	460 White House dinner
+		as Larry enters
+		ready to sit on dais
+		sitting
+	730 "Tramp Casino" Ballroom
+		wet T-shirt
+		mud wrestling
+		
+

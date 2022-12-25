@@ -1,0 +1,81 @@
+**File 730.SC
+    87: 				; DEBUG
+**File 870.SC
+   436: ;**			(SetDebug)
+**File 290.SC
+   108: 			((not prevRoomNum)				;debugging
+**File 640.SC
+  1177: 		view			640 ;debug
+**File 000.SC
+   332: 		; DEBUG
+   364: 			; debug
+   393: 		;DEBUG
+   541: 	(method (restart)							;**	DEBUG remove before shipping
+   644: 					(MemoryInfo LargestPtr))	;**	DEBUG remove before shipping
+   648: 						#button: {Debug} 		1
+   651: 			(SetDebug)
+   654: 		(if debugOn								;**	DEBUG remove before shipping
+   655: 			(SetDebug)
+   697: 		((ScriptID DEBUG 0) init:)
+  1187: ; DEBUG - Remove this proecedure for shipping
+**File 405.SC
+   142: 		view			vClubOwnerTalker			;DEBUG
+   158: 		view		vClubOwnerTalker			;DEBUG
+   167: 		view		vClubOwnerTalker			;DEBUG
+   177: 		view			vClubOwnerTalker	;DEBUG
+   189: ;		view		1			;DEBUG
+   206: ;		view		1			;DEBUG
+   215: ;		view		1			;DEBUG
+   225: ;		view		1			;DEBUG
+**File 720.SC
+   248: 			(if debugging
+**File INIT.SC
+    35: 		; DEBUG - clear logger path initially so it will prompt
+**File 170.SC
+    63: 			(else				;DEBUG - teleporting
+**File 140.SC
+   268: 		view			vPPCFlunky1Talker			;DEBUG
+   284: 		view		vPPCFlunky1Talker			;DEBUG
+   293: 		view			vPPCFlunky1Talker			;DEBUG
+   303: 		view			vPPCFlunky1Talker			;DEBUG
+   315: 		view			vPPCFlunky2Talker			;DEBUG
+   331: 		view		vPPCFlunky2Talker			;DEBUG
+   340: 		view			vPPCFlunky2Talker			;DEBUG
+   350: 		view			vPPCFlunky2Talker			;DEBUG
+**File 160.SC
+   277: 					setVol:		50				; DEBUG
+**File DISP.SC
+    41: 			; Debug only
+**File DEBUG.SC
+     1: (script#	DEBUG)
+     3: ;;; Debug object for rooms that can handle it (i.e. enough heap)
+    45: 	debugHandler	0
+    88: (instance debugHandler of Feature
+    99: 		(DisposeScript DEBUG)
+   503: ;** Debug help
+   506: 						(Print "Debug options:______(Page 1 of 5)\n\n
+   510: 							___D - Bring up debugger\n
+   515: 						(Print "Debug options:______(Page 2 of 5)\n\n
+   524: 						(Print "Debug options:______(Page 3 of 5)\n\n
+   533: 						(Print "Debug options:______(Page 4 of 5)\n\n
+   537: 						(Print "Debug options:______(Page 4 of 5)\n\n
+**File 320.SC
+   111: 				(PrintD {Enter dream to debug:}
+**File 905.SC
+   110: 				(= larryLoc Miami)				;DEBUG CODE
+**File GAME.SC
+   516: 		(if debugOn
+   517: 			(SetDebug)
+**File 100.SC
+   118: 		(if (and									;DEBUG! Why is this even here?!
+**File 700.SC
+    93: 			; DEBUG
+**File 500.SC
+    43: 		;DEBUG CODE
+**File 150.SC
+   251: 		view		vScruemallIntroTalker			;DEBUG
+   260: 		view			vScruemallIntroTalker		;DEBUG
+   282: 		view			vSmallScruemallTalker			;DEBUG
+   300: 		view		vSmallScruemallTalker			;DEBUG
+   309: 		view			vSmallScruemallTalker			;DEBUG
+   319: 		view			vSmallScruemallTalker			;DEBUG

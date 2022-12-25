@@ -1,0 +1,92 @@
+**FILE: 120.SC
+  203: 		(Print @buffer
+
+
+
+
+**FILE: 150.SC
+  238: 		(Print @buffer
+
+
+
+
+**FILE: 200.SC
+  734: 				(Print "Yeah, too bad for the other guy.
+ 1173: 								(Print "\"Inspector,
+
+
+
+
+**FILE: 510.SC
+  311: 				(Print "\"I'm sorry, but that is not a working number.
+
+
+
+
+**FILE: 660.SC
+  488: 					(Print "Play the white synthesizer keys by typing the\n
+
+
+
+
+**FILE: 700.SC
+  263: 					(Print "Now would be an excellent time for you to save your
+  578: 		(if (PrintD {}
+
+
+
+
+**FILE: 710.SC
+  267: 				(Print "Leave them alone, Larry; they're concentrating
+
+
+
+
+**FILE: 720.SC
+  188: 				(Print "Click on a button instead of where you just clicked.")
+  251: 					(PrintD @str
+  270: 					(PrintD @str
+
+
+
+
+**FILE: DOOR.SC
+  148: 			(Print "This door is locked.")
+
+
+
+
+**FILE: ICONBAR.SC
+  203: 						(Print @tmpStr #dispose:)
+  650: 							(Printf "%s" (thisIcon helpStr?))
+
+
+
+
+**FILE: INVENT.SC
+  62: 				(Printf "%s" description)
+  185: 			(Printf "%s %s" normalHeading empty)
+  591: 										(Printf "%s" (thisIcon helpStr?))
+  594: 										(Printf "%s" (thisIcon helpStr?))
+
+
+
+
+**FILE: INVENTRY.SC
+  59: 	(Print (+ clickItem (if egoIsLarry 50 else 80)) baseItem)
+
+
+
+
+**FILE: PASSWORD.SC
+  59: 				(Print "I'm sorry, but you have failed to enter the correct
+  72: 				(Printf "Your password is now %s.\n
+  81: 		(if (Print "Would you like to restore\n
+
+
+
+
+**FILE: TALKER.SC
+  219: 			(Print @buffer
+  242: 			(Print @buffer
+

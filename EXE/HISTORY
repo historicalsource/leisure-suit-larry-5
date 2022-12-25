@@ -1,0 +1,284 @@
+                     Polytron Version Control System
+                        Corporate/Network Version
+
+This version of PVCS contains fixes for some bugs that were present in
+previous versions as well as enhancements as noted below.  Some of the
+revision numbers below are internal releases only.
+
+X031  (14 Dec 1987)
+
+Corrections
+
+- Fixed a bug in VDIFF that sometimes caused a divide overflow.
+
+Enhancements
+
+- Added an alias capability similar to that in the screen interface.
+  See the PVCS manual supplement for details.
+
+- Added the ability to remove special meaning from quote and apostrophe
+  characters in command files.  To do so, simply place a backslash
+  immediately preceding the quote or apostrophe.
+
+X030  (14 Oct 1987)
+
+Corrections
+
+- Made VDIFF resynchronize correctly with context set to zero.
+- Fixed a problem in VMRG where certain sequences at the end of the
+  files were not being handled correctly.
+  
+Enhancements
+
+- Logfiles have an additional attribute [NO]TRANSLATE; see the manual
+  supplement for details.
+
+- The -Q option on all commands now has a modifier that removes the
+  implicit affirmative response characteristic.  -QO indicates that
+  Quite Only is requested, ie., not implicit affirmation also.  Note
+  that -QO -Y is identical to -Q.
+
+- The revision delete capability has been removed from the VCS command.
+  A new command, VDEL, provides this function.  See the manual supplement
+  for details.
+
+- Keyword expansion is now an attribute of a logfile rather than a
+  runtime option.  This change was necessary for compatibility with
+  non-text files and other files for which keyword expansion is always
+  not desired.  See the manual supplement for details.
+
+- Added the concept of branch versions.  See the manual supplement
+  for details.
+
+- Added a test when revision is PUT, to see if the timestamp of the file
+  being put is later than its prospective parent in the logfile.  If not,
+  the user is queried about whether or not to continue.  The -Q, -N, and
+  -Y options provide implied responses to this query in the normal fashion.
+
+- A new configuration parameter controls whether or not a new logfile will
+  be created if the PUT command cannot find a corresponding logfile.  The
+  two variations are AUTOCREATE and NOAUTOCREATE with the former being the
+  default.
+  
+- A message file capability has been added to allow descriptions associated
+  with the -T and -M options of the PUT and the -T option of the VCS command.
+  See the mannual supplement for details.
+
+- Arguments to PVCS commands may now be quoted with either the single
+  quote (') or double quote (") character.  The quoted string may
+  directly include the quote character not used to quote the string and
+  the quote character used may be used literally by escaping it with
+  a backslash.  Some examples will clarify this.
+
+    PUT -M"this string contains a single quote ' at this point"
+    PUT -M'this string contains a double quote " at this point'
+    PUT -M"this string contains both quotes '\" at this point"
+    
+- A new keyword, Workfile, has been added that expands to the name
+  of the workfile.  As usual, this keyword is case sensitive and must
+  be surrounded by dollar signs.
+
+- A new configuration parameter, NEWLINE, has been added to specify the
+  character string to be used for the newline sequence when expanding
+  the $Log keyword.  See the manual supplement for details.
+
+- A single logical configuration file line may be continued over multiple
+  physical by ending all but the last physical line with a backslash.
+
+X029  (04 Aug 1987)
+
+Enhancements
+
+- Added the hooks to allow cooperation with the screen interface.
+
+X028  (20 Jul 1987)
+
+Enhancements
+
+- Two new brief reporting modes were added to the VLOG command.
+
+    -BN[<branch>]
+    -BR[<rev/branch>]
+
+  See the manual supplement for details.
+
+- A version renaming feature has been added to the VCS command.
+
+    -V<new version>::<old version>
+
+  causes the old version to be changed to the new version name.
+
+Corrections
+
+- Certain unusual cases (eg. files containing no unique lines) were
+  able to fool PUT into thinking that more of the file had been changed
+  than actually had.  The only effect of this was that the logfile size
+  grew more rapidly than it otherwise should have.
+
+- Disk-full conditions were not always being detected when GETting the
+  latest revision.
+
+- Date ranges beginning with an asterisk were not being handled correctly.
+
+- COMMENTPREFIX configuration parameters required whitespace following the
+  extension.
+
+V1.4a (28 May 1987)
+X027  (28 May 1987)
+
+- See the READ.ME file for latest details.  All information in this
+  file has been incorporated in the new release of the manual; all
+  references to the READ.ME file beyond this point should be redirected
+  to the manual.
+
+X026 (28 Apr 1987)
+
+Corrections
+
+- VMRG sometimes got confused if a series of non-unique matching lines
+  were isolated by non-matching lines at the beginning or end of files.
+  
+- Deleting a trunk tip revision caused branch revisions added after the
+  successor trunk tip revision to be invisible.
+  
+- Specifying a major number only on a PUT command when the major number
+  already existed caused an error to be reported rather than just using
+  the next available minor number.
+
+
+V1.4 (20 Apr 1987)
+X025 (20 Apr 1987)
+
+Enhancements
+
+- Added a new configuration parameter EXCLUSIVELOCK.  When used, this
+  parameter prevents the locking of more than one revision in a given
+  logfile.  The default is NOEXCLUSIVELOCK.
+
+Corrections
+
+- When the WRITEPROTECT status of a logfile was changed, the actual
+  attributes of the file were not being changed.
+
+- Very large journal files caused an "Insufficient memory" error message.
+
+
+X023 (25 Mar 1987)
+
+Enhancements
+
+- Added a modifier to the -F option to force creation of a branch.
+  Example:
+
+  PUT -FB *.c
+
+  This causes branch creation even if the locked revision is a tip revision.
+  The -FB and -R options are mutually exclusive.
+
+- Added the @<file> capability to the IDENT, REGEN, and VJOURNAL commands.
+
+- Added a -H option to GET, IDENT, PUT, REGEN, VCS, VDIFF, VJOURNAL,
+  VLOG, and VMRG commands to display helpful text.
+
+- The forward slash was an undocumented synonym for dash, ie. it could
+  be used as an option escape character.  This use was removed thus
+  allowing forward slash to be used as the first character of filenames.
+  
+Corrections
+
+- The FORCEUNLOCK parameter sometimes caused unexpected characters to
+  be inserted in the journal file.
+
+- A VDIFF command using an unadorned logfile name was not being processed
+  correctly.
+  
+
+V1.3 (04 Mar 1987)
+X022 (25 Feb 1987)
+
+Enhancements
+
+- The -Q flag suppresses warning messages.
+
+
+X021 (17 Feb 1987)
+
+Enhancements
+
+- The GET, PUT, and VCS commands now have a -Y option that gives an
+  implicit affirmative response to any and all questions that would
+  normally be asked by those commands.  In this respect, the -Y option
+  performs the same function as the -Q option but of course -Q suppresses
+  some informative output.  Note that if both -N and -Y are given, -N
+  takes precedence in the same manner that -N overrides the affirmative
+  response characteristics of -Q.
+  
+- The GET and VCS commands no longer allow a lock to be placed on a
+  revision in a logfile that does not have lock checking enabled.
+  
+
+X020 (09 Feb 1987)
+
+Corrections
+
+- It was possible for the VCS command to lock a revision that was already
+  locked.
+
+Enhancements
+
+- The SCREEN configuration parameter (introduced in X019 - see the README
+  file) now accepts a HERCULES modifier to indicate that a Hercules-compatible
+  display card is in use.  The only difference is how the cursor looks; PVCS
+  will function with Hercules cards even without the HERCULES modifier.
+  Example:
+
+     SCREEN HERCULES
+
+- When using your own editor to compose change descriptions and workfile
+  descriptions, PVCS now includes a second line indicating the file involved.
+  If both information lines are unchanged, both will be automatically removed
+  from the response.  If either line is modified, neither will be removed.
+
+- When doing a PUT or VCS -I operation with the -Q flag, the filename(s) of
+  the effected files will also be output.
+  
+Notes
+
+- PolyShell users will notice that they have two CHMOD commands - one in
+  PVCS and one in PolyShell.  Unfortunately, the W attribute is interepreted
+  as WRITE-PROTECT in the former and WRITABLE in the latter.  You should
+  choose which command you wish to use and delete the other from your system.
+  For purposes of uniformity, it is advisable to use the PolyShell version.
+  
+
+X019 (19 Jan 1987)
+
+Enhancements
+
+- Several new configuration parameters have been added; see the README
+  file for details.
+  
+Corrections
+
+- Added code to VDIFF to display ctrl-Z as ^Z to avoid prematurely
+  terminating the display.  Also fixed a bug that caused VDIFF to think
+  two files were the same if lines were simply moved around.
+  
+- Made the CHMOD command accept filenames beginning with dot.
+
+- Fixed a bug in the version labelling logic that caused an error to
+  be reported in certain cases where an explicit revision number was given.
+  
+- A bug was fixed in the GET command that sometimes caused two revisions
+  to be copied to standard output when the -p option was used.
+
+- Certain error messages were classified as INTERNAL, and therefore were
+  not completely displayed, when they should have not been.
+
+- A bug was fixed in the logic that compares revision numbers that caused
+  PVCS commands to get confused when the minor part of a revision number
+  became very large.
+  
+
+V1.2a (08 Dec 1986)
+X018 (20 Nov 1986)

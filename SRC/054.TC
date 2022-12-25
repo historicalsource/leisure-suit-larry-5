@@ -1,0 +1,95 @@
+;**
+;**	Logics for Room 054 -- Text for Using the CC'sVideotape on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  August 17, 1991
+;**
+
+
+(script# 054)
+
+(CC'sVideotape
+	;**	iCamcorder		50
+	"n/a"
+
+	;**	iBatteryCharger		51
+	"The battery charger doesn't accept videotapes."
+
+	;**	iMM'sVideotape	52
+	"\"Hello, Brother,\" says the videotape."
+
+	;**	iLL'sVideotape	53
+	"\"Hello, Brother,\" says the videotape."
+
+	;**	iCC'sVideotape	54
+	"Click the OK button to close this window."
+
+	;**	iMM'sResume		55
+	"Very organized. It is logical to store the videotape in the resume
+folder. (But just don't do it, OK?)"
+
+	;**	iHDCNapkin		56
+	"You wipe the videotape on the napkin to get rid of that \"fresh
+mermaid\" aroma."
+
+	;**	iGoldCard	57
+	"You attempt to imprint the Gold Card on the videotape."
+
+	;**	iBoardingPass	58
+	"The videotape doesn't need a boarding pass."
+
+	;**	iMagazine	59
+	"You slip the videotape tenderly into the sensitive folds of your
+In-Flight Magazine."
+
+	;**	iQuarter	60
+	"The videotape seems unimpressed with your chump change."
+
+	;**	iDayTrotter		61
+	"The DayTrotter doesn't have room for the videotape."
+
+	;**	iMoney		62
+	"No need to pay the videotape, it's just doing its job."
+
+	;**	iCreditCards			63
+	"The videotape doesn't take credit cards."
+
+	;**	iMembershipTape		64
+	"The videotape is unimpressed by the length of your membership tape."
+
+	;**	iLL'sResume		65
+	"Very organized. It is logical to store the videotape in the resume
+folder. (But just don't do it, OK?)"
+
+	;**	iCasinoMatchbook	 66
+	"After struggling futilely for several seconds, you grasp the notion that
+the videotape is far too large to fit into the matchbook."
+
+	;**	iSilverDollar	67
+	"Even the videotape isn't fooled by Tramp money."
+
+	;**	iRollerblades	68
+	"You wisely realize that the bottom of a roller skate is a particularly
+dangerous place to keep your valuable videotape."
+
+	;**	iCC'sResume		69
+	"Very organized. It is logical to store the videotape in the resume
+folder. (But just don't do it, OK?)"
+
+	;**	iDocPulliam'sCard	 70
+	"Placing them up against each other, you easily ascertain that both the
+videotape and Doc Pulliam's card are rectangular."
+
+	;**	iGreenCard		71
+	"The videotape has no idea what to do with a Green Card."
+
+	;**	iDoily		72
+	"The videotape isn't into doilies, but if you can find a 4-head VCR,
+she'll love you forever."
+
+)

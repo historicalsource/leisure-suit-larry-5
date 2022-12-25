@@ -1,0 +1,145 @@
+
+
+
+
+**FILE: 760.SC
+ 1646: 					posn:			(lana x?) 148,	; DEBUG
+
+
+
+
+**FILE: 170.SC
+  66: 			(else				;DEBUG - teleporting
+
+
+
+
+**FILE: 820.SC
+  31: (define	DEBUGCODE	-2)
+  105: 		(if	(OneOf codeNumber krapperDoorCode DEBUGCODE)
+
+
+
+
+**FILE: 880.SC
+  47: (define DEBUGCODE -2)
+  163: 				(OneOf codeNumber roomBNumber DEBUGCODE)
+
+
+
+
+**FILE: 000.SC
+  351: 		; DEBUG
+  384: ;			; debug
+  413: ;		;DEBUG
+  561: 	(method (restart)							;**	DEBUG remove before shipping
+  675: 					(MemoryInfo LargestPtr))	;**	DEBUG remove before shipping
+  679: 						#button: {Debug} 		1
+  682: 			(SetDebug)
+  724: 		(if (and	debugging (not (OneOf n NODEBUGROOMS)))
+  725: 			((ScriptID DEBUG 0) init:)
+  726: 			(= debugging FALSE)
+ 1260: ; DEBUG - Remove this proecedure for shipping
+
+
+
+
+**FILE: 730.SC
+  87: 				; DEBUG
+
+
+
+
+**FILE: 720.SC
+  248: 			(if debugging
+
+
+
+
+**FILE: 110.SC
+  58: 		(if (and									 ;DEBUG - Don't need and for SV
+  61: 				(!= (event message?) `@a)	 ;DEBUG - Come out for shipping version
+  62: 				(!= (event message?) `@r)	 ;DEBUG
+  63: 				(!= (event message?) `@t)	 ;DEBUG
+
+
+
+
+**FILE: 320.SC
+  111: 				(PrintD {Enter dream to debug:}
+
+
+
+
+**FILE: 905.SC
+  138: 				(= larryLoc Miami)				;DEBUG CODE
+
+
+
+
+**FILE: DISP.SC
+  41: 			; Debug only
+
+
+
+
+**FILE: DEBUG.SC
+   1: (script#	DEBUG)
+   3: ;;; Debug object for rooms that can handle it (i.e. enough heap)
+  45: 	debugHandler	0
+  88: (instance debugHandler of Feature
+  99: 		(DisposeScript DEBUG)
+  503: ;** Debug help
+  506: 						(Print "Debug options:______(Page 1 of 5)\n\n
+  510: 							___D - Bring up debugger\n
+  515: 						(Print "Debug options:______(Page 2 of 5)\n\n
+  524: 						(Print "Debug options:______(Page 3 of 5)\n\n
+  533: 						(Print "Debug options:______(Page 4 of 5)\n\n
+  537: 						(Print "Debug options:______(Page 4 of 5)\n\n
+
+
+
+
+**FILE: 380.SC
+  61: ;**	DEBUG: remove before shipping
+
+
+
+
+**FILE: 500.SC
+  43: 		;DEBUG CODE
+
+
+
+
+**FILE: 190.SC
+  93: 		(debugFeature	init:)
+  485: (instance debugFeature of Feature
+  508: 			(= debugging TRUE)
+
+
+
+
+**FILE: 700.SC
+  100: 			; DEBUG
+
+
+
+
+**FILE: 100.SC
+  109: 		(if (and									;DEBUG - Don't need and for SV
+  112: 				(!= (event message?) `@a)	;DEBUG - Come out for shipping version
+  113: 				(!= (event message?) `@r)	;DEBUG
+  114: 				(!= (event message?) `@t)	;DEBUG
+
+
+
+
+**FILE: 290.SC
+  112: 			((not prevRoomNum)				;debugging
+
+
+
+
+**FILE: INIT.SC
+  35: 		; DEBUG - clear logger path initially so it will prompt

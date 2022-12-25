@@ -1,0 +1,21 @@
+view     =..\view\*.v56; ..\..\art\view\*.v56
+pic      =..\pic; ..\..\art\pic\*.p56; 
+palette  =..\view; ..\pic
+bitmap   =..\pic
+           
+script   =..\al\; ..\script; s:
+text     =..\al\; ..\script; s:
+vocab    =..\al\; ..\script; s:
+font     =..\font;      s:
+cursor   =..\cursor;    s:
+
+sound    =..\sound
+patch    =..\sound
+
+soundDrv =s:noload.drv
+kbdDrv   =s:ibmkbd.drv
+videoDrv =s:vga320.drv
+mouseDrv =YES
+minHunk  =100k
+language =1
+

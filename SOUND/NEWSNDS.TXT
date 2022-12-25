@@ -1,0 +1,1219 @@
+;**************************************************
+;* LL5 NewSnds.TXT
+;**************************************************
+;       m = MT32
+;       a = adlib/soundblaster
+;       t = tandy
+;       j = CMS
+;       s = single voice
+;       x = sample
+
+;       - = no sound for this device
+;       ? = sound for this device not yet done
+
+
+;**************************************************
+;* The following are sounds for the game
+;******** 6/24/91 *********************************
+;**************************************************
+
+;(10.snd (-p10)          ;sPointsSnd             matjs-
+;        (seq\Points.mid)
+;)
+;
+;(21.snd (-p10)          ;sPhoneKey1             matjs-
+;        (seq\TT1.mid)
+;)
+;
+;(22.snd (-p10)          ;sPhoneKey2             matjs-
+;        (seq\TT2.mid)
+;)
+;
+;(23.snd (-p10)          ;sPhoneKey3             matjs-
+;        (seq\TT3.mid)
+;)
+;
+;(24.snd (-p10)          ;sPhoneKey4             matjs-
+;        (seq\TT4.mid)
+;)
+;
+;(25.snd (-p10)          ;sPhoneKey5             matjs-
+;        (seq\TT5.mid)
+;)
+;
+;(26.snd (-p10)          ;sPhoneKey6             matjs-
+;        (seq\TT6.mid)
+;)
+;
+;(27.snd (-p10)          ;sPhoneKey7             matjs-
+;        (seq\TT7.mid)
+;)
+;
+;(28.snd (-p10)          ;sPhoneKey8             matjs-
+;        (seq\TT8.mid)
+;)
+;
+;(29.snd (-p10)          ;sPhoneKey9             matjs-
+;        (seq\TT9.mid)
+;)
+;
+;(30.snd (-p10)          ;sPhoneKey0             matjs-
+;        (seq\TT0.mid)
+;)
+;
+;(31.snd (-p10)          ;sPhoneKey#             matjs-
+;        (seq\TTPound.mid)
+;)
+;
+;(32.snd (-p10)          ;sPhoneKey*             matjs-
+;        (seq\TTStar.mid)
+;)
+;
+;(33.snd (-p10)          ;sDialTone             matjs-    Loop
+;                        ;Hold on hold point 10
+;        (seq\DialTone.mid)
+;)
+;
+;(35.snd (-p10)          ;sWrongNumber             matjs-
+;        (seq\PhnError.mid)
+;)
+;
+;(40.snd (-p10)          ;sDoorOpen             matjsx
+;        (seq\DoorO1.mid)
+;        (savesmp\DoorO1.smp[mat])
+;)
+;
+;(41.snd (-p10)          ;sDoorClose             matjsx
+;        (seq\DoorC1.mid)
+;        (savesmp\DoorC1.smp[mat])
+;)
+
+
+;Removed from game
+;(116.snd (-p10)          ;sCorrect             matjs-
+;        (seq\QRight.mid)
+;)
+;
+;(117.snd (-p10)          ;sIncorrect             matjsx
+;        (seq\QWrong.mid)
+;        (savesmp\QWrong.smp[mat])
+;)
+
+
+;**(146.snd (-p10)          ;sBreakPot             matjsx
+;**        (seq\Glassbrk.mid)
+;**        (savesmp\Glassbrk.smp[mat])
+;**)
+
+;**	(191.snd (-p10)          ;sCarDoorOpen             matjsx
+;**	        (seq\CabDoorO.mid)
+;**	        (savesmp\CabDoorO.smp[mat])
+;**	)
+;**	
+;**	(192.snd (-p10)          ;sCarDoorClose             matjsx
+;**	        (seq\CabDoorC.mid)
+;**	        (savesmp\CabDoorC.smp[mat])
+;**	)
+
+;(193.snd (-p10)          ;sFountain              ma----   Loop
+;        (seq\Fountain.mid)
+;)
+
+;**	(201.snd (-p10)          ;sTVClickOn             ma????
+;**	        (seq\TVClick.mid)
+;**	)
+
+;**	(293.snd (-p10)          ;sSlidingDoor             matjs-
+;**	                         ;Stop sound when animation stops
+;**	        (seq\SlidDoor.mid)
+;**	)
+
+;(443.snd (-p10)          ;sLongFart             matjsx
+;        (seq\Fart.mid)
+;        (savesmp\Fart.smp[mat])
+;)
+
+;SRC(621.snd (-p10)          ;sElevatorDing          ma??-x
+;SRC        (seq\ElevDing.mid)
+;SRC        (savesmp\ElevDing.smp[mat])
+;SRC)
+
+;SRC(622.snd (-p10)          ;sElevatorDoor             matjs-
+;SRC        (seq\ElevDoor.mid)
+;SRC)
+;
+;(721.snd (-p10)          ;sDeal                     matjs-
+;        (seq\Card.mid)
+;)
+;
+;(722.snd (-p10)          ;sButton                  matjs-
+;        (seq\Button.mid)
+;)
+;
+;(723.snd (-p10)          ;sCashout                 matjsx
+;        (seq\CashOut.mid)
+;        (savesmp\CashOut.smp[mat])
+;)
+;
+;(724.snd (-p10)          ;sWin                     matjs-
+;        (seq\WinSmall.mid)
+;)
+;
+;(725.snd (-p10)          ;sBigWin                 matjs-
+;        (seq\WinBig.mid)
+;)
+;
+;(726.snd (-p10)          ;sLose                  matjs-
+;        (seq\BJLose.mid)
+;)
+
+;(761.snd (-p10)          ;sSplash                matjsx
+;        (seq\Splash.mid)
+;        (savesmp\Splash.smp[mat])
+;)
+
+;**(842.snd (-p10)          ;sCopyExplodes                matjsx
+;**        (seq\CopyXpld.mid)
+;**        (savesmp\CopyXpld.smp[mat])
+;**)
+;**
+;**(851.snd (-p10)          ;sFlush                matjsx
+;**        (seq\Toilet.mid)
+;**        (savesmp\Flush.smp[mat])
+;**)
+
+;*******************************************
+;**** Added 6/25/91 ************************
+;*******************************************
+;SRC(102.snd (-p10) ;sTypewriter                    matj-x
+;SRC                ;for each letter typed
+;SRC     (seq\type.mid)
+;SRC     (savesmp\type.smp[mat])
+;SRC)
+
+;SRC(105.snd (-p10) ;sBackSpace                     matj-x
+;SRC                ;for each backspace
+;SRC     (seq\backspc.mid)
+;SRC     (savesmp\backsp.smp[mat])
+;SRC)
+
+
+;(115.snd (-p50)         ;mQuiz                 m????-	 Loop
+;					;removed from game
+;        (seq\Quiz.mid)
+;)
+
+;(160.snd (-p50)         ;mPPCMusak              m????-
+;        (seq\PPCMusak.mid)
+;)
+
+;**	(501.snd (-p50)         ;mHardRock2             m????x
+;**	        (seq\HrdRock2.mid)
+;**	)
+;**	
+;**	(510.snd (-p50)         ;mMusicBox              m????-
+;**	        (seq\MusicBox.mid)
+;**	)
+
+(660.snd (-p50)     	;mPopTune               m????-
+					;Start with Channel 9 muted
+					;Send Players notes to channel 8
+					;When ready to use real solo, mute channel 8
+					;and unmute channel 9.  Cues give actual MIDI
+					;note numbers for the solo.  Patti's keyboard
+					;corresponds to MIDI notes 60 thru 90.
+        (seq\PopTune.mid)
+)
+
+;SRC(663.snd (-p50)         ;mGettingSome               m????-
+;SRC        (seq\GetSome.mid)
+;SRC)
+;
+;(710.snd (-p50)         ;mCasino               m????-
+;        (seq\Casino.mid)
+;)
+
+
+;**********************************************
+;* Added 6/26/91
+;**********************************************
+(34.snd (-p10)          ;sCoinInPhone           matjs?
+        (seq\PhonCoin.mid)
+)
+
+;(162.snd (-p10)         ;sPlugIn                matjs?
+;        (seq\PlugIn.mid)
+;)
+
+;(163.snd (-p10)         ;sWaterCooler           ma---?
+;        (seq\WtrCoolr.mid)
+;)
+
+;(171.snd (-p10)         ;sDrawer                matjs?
+;        (seq\Drawer.mid)
+;)
+;
+;(172.snd (-p10)         ;sDeGauss               m?????
+;        (seq\DeGauss.mid)
+;)
+;
+;(181.snd (-p10)         ;sFileOpen           m?????
+;        (seq\FileDrO.mid)
+;)
+;
+;(182.snd (-p10)         ;sFileClose          m?????
+;        (seq\FileDrC.mid)
+;)
+
+;**	(194.snd (-p10)         ;sCarDriveAway          m????-
+;**	        (seq\CarAway.mid)
+;**	)
+
+;**	(202.snd (-p10)         ;sWindowUpDown          m?????
+;**	        (seq\ElecWind.mid)
+;**	)
+
+;**	(204.snd (-p10)         ;sCarSnd                m????-   Loop
+;**	        (seq\CarSnd.mid)
+;**	)
+;**	
+;**	(255.snd (-p10)         ;sCarPullsUp            m????-
+;**	        (seq\CarPulUp.mid)
+;**	)
+
+;*********************************
+;* 6/27/91
+;*********************************
+(203.s;**	nd (-p10)         ;sFaxFX                 m?????
+      ;**	  (seq\Fax.mid)
+)		;**	
+
+;**	(205.snd (-p10)         ;sFish                  m?????
+;**	        (seq\Fish.mid)
+;**	)
+
+;**	(241.snd (-p10)         ;sCoinsFall             matj??
+;**	        (seq\CoinFall.mid)
+;**	)
+
+(254.snd (-p;**	10)         ;sFlyBy                 m????-
+        (seq;**	\FlyBy.mid)
+)				;**	
+				;**	
+(255.snd (-p;**	10)         ;sCarPullsUp            m????-
+        (seq;**	\CarPulUp.mid)
+)				;**	
+
+;(256.snd (-p10)         ;sATMFX                 m????-
+;        (seq\ATMBeep.mid)
+;)
+;
+;(257.snd (-p10)         ;sTicket                m?????
+;        (seq\ATMEject.mid)
+;)
+;
+;(258.snd (-p10)         ;sCardSlot              m?????
+;;        (seq\ATMSlot.mid)
+;	    (seq\SuckPass.mid)
+;)
+
+;(259.snd (-p10)         ;sATMType               m?????
+;                        ;play when machine is printing ticket before
+;                        ;ejecting it.
+;        (seq\ATMType.mid)
+;)
+
+; (262.snd (-p10)         ;sSlotPullSpin          matjs-
+;         (seq\PullSlot.mid)
+; )
+;
+; (263.snd (-p10)         ;sWinAQuarter           m?????
+;         (seq\WinCoin.mid)
+; )
+
+;**	(272.snd (-p10)         ;sCameraDown            m?????
+;**	                        ;play for each "camera nod down" movement
+;**	        (seq\CamraDwn.mid)
+;**	)
+;**	
+;**	(273.snd (-p10)         ;sCameraUp              m?????  ***New Sound***
+;**	                        ;play for each "camera nod up" movement
+;**	        (seq\CamraUp.mid)
+;**	)
+
+;**	(291.snd (-p10)         ;sTrickChair            m?????
+;**	        (seq\Whoops.mid)
+;**	)
+
+;**	(292.snd (-p10)         ;sSuckPass              m?????
+;**	        (seq\SuckPass.mid)
+;**	)
+
+
+;*************************************************
+;*** 6/28/91 **********************
+;*************************************************
+
+;**	(311.snd (-p10)		;sTakeOff			   m????-
+;**						;Hold on hold point 10 until plane lifts off.
+;**						;Then release, fade sound out as plane disappears.
+;**		(seq\Takeoff.mid)
+;**	)
+;**	
+;**	(312.snd (-p10)		;sLanding			   m????-
+;**		(seq\Landing.mid)
+;**	)
+;**	
+;**	(313.snd (-p10)		;sBouncelanding	   m?????
+;**		(seq\PlaneBnc.mid)
+;**	)
+;**	
+;**	(314.snd (-p10)		;sBrakes			   m?????
+;**		(seq\Tires.mid)
+;**	)
+;**	
+;**	(321.snd (-p10)		;sPlaneSnd		   m????-		Loop
+;**		(seq\PlaneSnd.mid)
+;**	)
+;**	
+;**	(322.snd (-p10)		;sSqueezeNuts		   m????-
+;**						;play once for each nut squeeze
+;**		(seq\Nuts.mid)
+;**	)
+
+;**	(331.snd (-p10)		;sApplause		   m?????
+;**		(seq\Applaus.mid)
+;**	)
+;**	
+;**	(351.snd (-p10)		;sPoleToing		   m?????
+;**		(seq\Toing.mid)
+;**	)
+;**	
+;**	(352.snd (-p10)		;sSpringLeak		   m????-		Loop
+;**		(seq\Gusher.mid)
+;**	)
+;**	
+;**	(381.snd (-p10)		;sDC3Engines		   m????-		Loop
+;**		(seq\DC3Engin.mid)
+;**	)
+;**	
+;**	(386.snd (-p10)		;sPlaneDive		   m????-
+;**		(seq\PlaneDiv.mid)
+;**	)
+;**	
+;**	(387.snd (-p10)		;sScreams			   m?????
+;**		(seq\Scream.mid)
+;**	)
+;**	
+;**	(392.snd (-p10)		;sPullOut			   m????-
+;**		(seq\PullOut.mid)
+;**	)
+
+(393.snd (-p10)		;sGaugeFX1		   m?????
+	(seq\GaugeFX1.mid)
+)
+
+(394.snd (-p10)		;sGaugeFX2		   m?????
+	(seq\GaugeFX2.mid)
+)
+
+(395.snd (-p10)		;sGaugeFX3		   m?????
+	(seq\GaugeFX3.mid)
+)
+
+
+
+;*************************************************************************
+;* Added 7/1/91
+;*************************************************************************
+
+;**(401.snd (-p10)		;sOneHandClap		   m?????
+;**	(seq\OneClap.mid)
+;**)
+
+(402.snd (-p10)		;sFootFall		   m?????
+	(seq\FootFall.mid)
+)
+
+(403.snd (-p10)		;sFootCreak		   m?????
+	(seq\FootCrek.mid)
+)
+
+;(431.snd (-p10)		;sVibratorOn		   m????-
+;	(seq\VibOn.mid)
+;)
+;
+;(432.snd (-p10)		;sVibratorShoots	   m????-
+;	(seq\VibShoot.mid)
+;)
+;
+;(433.snd (-p10)		;sVibratorHits		   m????-
+;	(seq\VibHit.mid)
+;)
+;
+;(434.snd (-p10)		;sShootingBra		   m?????
+;	(seq\BraShoot.mid)
+;)
+;
+;(435.snd (-p10)		;sRatchetBra		   m?????
+;	(seq\BraRatch.mid)
+;)
+;
+;(436.snd  (-p10)		;sLabSounds1		   m???--	 Loop
+;	(seq\LabSnd1.mid)
+;)
+;
+;(442.snd (-p10)		;sKeyboardType		   m???-?	 Loop
+;	(seq\Typing.mid)
+;)
+;
+;(443.snd (-p10)          ;sLongFart             m????-	 Loop
+;     (seq\LongFart.mid)
+;)
+;
+;(444.snd (-p10)		;sBodyBulge1		   m????-
+;	(seq\Bulge1.mid)
+;)
+;
+;(445.snd (-p10)		;sBodyBulge2		   m????-
+;	(seq\Bulge3.mid)
+;)
+;
+;(446.snd (-p10)		;sBodyBulge3		   m????-
+;	(seq\Bulge3.mid)
+;)
+;
+;SRC(464.snd (-p10)		;sPieInFace		   m?????
+;SRC	(seq\PieFace.mid)
+;SRC)
+
+;SRC(465.snd (-p10)		;sScuffle			   m????-	 Loop
+;SRC	(seq\Scuffle.mid)
+;SRC)
+
+;(561.snd 	(-p10)		;sShocked			    m????-
+;	 (seq\Shock.mid)
+;)
+
+;SRC(611.snd  (-p10)		;sRevolvingDoor	    m????-
+;SRC	(seq\RevDoor.mid)
+;SRC)
+
+
+
+
+;******************************************************************
+;* Added 7/2/91
+;******************************************************************
+
+;SRC(664.snd (-p10)		;sGlassesClink			m?????
+;SRC		(seq\Clink.mid)
+;SRC)
+
+;SRC(665.snd (-p10)		;sZing				m?????
+;SRC		(seq\Zing.mid)
+;SRC)
+
+;SRC(691.snd (-p10)		;sSonarPing			m?????
+;SRC		(seq\Sonar.mid)
+;SRC)
+
+
+
+;******************************************************************
+;* Added 7/7/91
+;******************************************************************
+
+;**(841.snd (-p10)		;sCopyMachine			m?????
+;**	(seq\CopyMach.mid)
+;**)
+;**
+;**(843.snd (-p10)		;sPickLock			m?????
+;**	(seq\PickLock.mid)
+;**)
+
+(852.snd (-p10)		;sRunWater			m????? 	Loop
+	(seq\RunWater.mid)
+)
+
+
+;*******************************************************************
+;* Added 7/9/91
+;*******************************************************************
+
+;**(120.snd  (-p50)			;mMobOffice		m????-	Loop
+;**	(seq\MobOffic.mid)
+;**)
+;**
+;**(130.snd  (-p50)			;mMobOfficeHit		m????-
+;**	(seq\MobHit.mid)
+;**)
+;**
+;**(140.snd  (-p50)			;mPornProdOffice	m????-	Loop
+;**	(seq\PPCOffic.mid)
+;**)
+;**
+;**(150.snd  (-p50)			;mPlan			m????-	Loop
+;**	(seq\Plan.mid)
+;**)
+
+;**	(210.snd  (-p50)			;mMrBiggTheme		m????-	Loop
+;**		(seq\MrBigg.mid)
+;**	)
+;**	
+;**	(215.snd (-p50)		;mMcGutterSlug		m????-		Loop
+;**		(seq\McNasty.mid)
+;**	)
+
+;**	(315.snd (-p50)		;mTraveling		m????-
+;**		(seq\Travel.mid)
+;**	)
+;**	
+;**	(320.snd (-p50)		;mDreamLand		m????-
+;**		(seq\DreamLnd.mid)
+;**	)
+;**	
+;**	(350.snd (-p50)		;mGondola			m????- 		Loop
+;**		(seq\Gondola.mid)
+;**	)
+;**	
+;**	(375.snd (-p50)		;mOboeSnake		m????-		Loop
+;**		(seq\OboeSnak.mid)
+;**	)
+;**	
+;**	(380.mid (-p50)		;mAsTimeGoesBy		m????-		Loop
+;**		(seq\AsTimeGo.mid)
+;**	)
+;**	
+;**	(390.snd (-p50)		;mFalling			m????-		Loop
+;**		(seq\Falling.mid)
+;**	)
+;**	
+;**	(391.snd (-p50)		;mSavePlane		m????-
+;**		(seq\SavPlane.mid)
+;**	)
+
+;**(410.snd (-p50)		;mDesmondTheme		m????-		Loop
+;**	(seq\Desmond1.mid)
+;**)
+
+; (420.snd (-p50)		;mDesmond2		m????-		Loop
+; 	(seq\Desmond2.mid)
+; )
+
+;(450.snd (-p50)		;mVonPelt1		m????-
+;	(seq\VonPelt1.mid)
+;)
+;
+;(451.snd (-p50)		;mVonPelt2		m????-
+;	(seq\VonPelt2.mid)
+;)
+;
+;(452.snd (-p50)		;mVonPelt3		m????-
+;	(seq\VonPelt3.mid)
+;)
+;
+;(453.snd (-p50)		;mVonPelt4		m????-
+;	(seq\VonPelt4.mid)
+;)
+;
+;(454.snd (-p50)		;mVonPelt5		m????-
+;	(seq\VonPelt5.mid)
+;)
+;
+;(458.snd (-p50)		;mVonPeltDone		m????-
+;	(seq\VPeltDon.mid)
+;)
+;
+;SRC(461.snd (-p50)		;mPattiHero		m????-
+;SRC	(seq\PatiHero.mid)
+;SRC)
+
+;(738.snd (-p50)         ;mNastyBoys               m????-
+;        (seq\NastyBoy.mid)
+;)
+
+;**(800.snd (-p50)		;mKRAPRap1			m????-
+;**	(seq\KRAPRap1.mid)
+;**)
+;**
+;**(801.snd (-p50)		;mKRAPRap2			m????-
+;**	(seq\KRAPRap2.mid)
+;**)
+;**
+;**(802.snd (-p50)		;mKRAPRap3			m????-
+;**	(seq\KRAPRap3.mid)
+;**)
+
+;**	(905.snd (-p50)		;mDentistMusak		m????-
+;**		(seq\Dentist.mid)
+;**	)
+;**	
+;**	(920.snd (-p50)		;mSalsaComic		m????-
+;**		(seq\SalsaCom.mid)
+;**	)
+
+
+;******************************************************
+;* 7/10/91
+;******************************************************
+
+;**(862.snd (-p10)		;sZwoosh!			m????-
+;**	(seq\Swoosh.mid)
+;**)
+
+;**(891.snd (-p10)		;sUseMike			m????-
+;**					;Patti Sings a hi "C"
+;**	(seq\UseMike.mid)
+;**)
+
+;SRC(101.snd (-p10)		;sFootInBucket		m?????
+;SRC	(seq\FootGlue.mid)
+;SRC)
+
+
+
+
+;******************************************************
+;* 7/15/91
+;******************************************************
+
+;CE(251.snd (-p10)		;AirportExtFX		m?tj--	Loop
+;CE	(seq\Traffic.mid)
+;CE)
+
+
+
+;***********************************************************
+;* 7/16/91
+;***********************************************************
+
+;SRC(103.snd (-10)  ;BroomUp					m?tjs-
+;SRC	(seq\Brush.mid)
+;SRC)
+
+;SRC(104.snd (-p10) ;sGlueStretch				m????-
+;SRC	(seq\Glue.mid)
+;SRC)
+
+;**	(536.snd (-p10)		;sGetsCherry		    m-tjs?
+;**		(seq\Slurp.mid)
+;**	)
+
+
+;SRC(647.snd  ;sSwitch *** Use 201:TVClickOn ***)
+
+(854.snd  ;sElevatorClose *** Use 40, and 41, door open and close ***)
+
+
+
+;**********************************************************
+;* 7/17/91
+;**********************************************************
+
+;SRC(661.snd (-p50)		;sRewind				m????-   Loop
+;SRC	(seq\Rewind.mid)
+;SRC)
+
+;SRC(662.snd (-p50)		;sStop				m????-
+;SRC	(seq\Stop.mid)
+;SRC)
+
+
+;************************************************************
+;* 7/18/91
+;************************************************************
+
+(396.snd (-p10)		;sPullIn			   m????-
+	(seq\PullIn.mid)
+)
+
+;****************************************************************
+;* 7/22/91
+;****************************************************************
+
+;SRC(640.snd (-p50)		;mSong33Fwd		    m????-
+;SRC	(seq\Rec33Fwd.mid)
+;SRC)
+
+;(740.snd (-p50)         ;mMudWrestling               m????-
+;        (seq\MudWrest.mid)
+;)
+;
+;(750.snd (-p50)         ;mCantGetItUp           m????-
+;        (seq\GetItUp.mid)
+;)
+
+;SRC(620.snd (-p50)          ;mShillMusak           m????-
+;SRC        (seq\RecMusak.mid)
+;SRC)
+
+
+;******************************************************************
+;* 7/23/91
+;******************************************************************
+
+;**(861.snd (-p10)		;sWolfWhistle			matjs-
+;**	(seq\CatCall.mid)
+;**)
+
+
+
+;******************************************************************
+;* 7/24/91
+;******************************************************************
+
+
+;SRC(641.snd (-p50)		;mSong78Forward		    m???s-
+;SRC	(seq\Rec78Fwd.mid)
+;SRC)
+;SRC
+;SRC(642.snd (-p50)		;mSong33Backward		    m???s-
+;SRC	(seq\Rec33Rev.mid)
+;SRC)
+;SRC
+;SRC(643.snd (-p50)		;mSong78Backward		    m???s-
+;SRC	(seq\Rec78Rev.mid)
+;SRC)
+
+;**(853.snd (-p10)		;sElevator			m?-j--
+;**					;Hold at hold point 10 until elevator
+;**					;gets to bottom, then release and allow
+;**					;sound to finish.
+;**	(seq\mElevatr.mid)
+;**)
+
+;(711.snd (-p10)		;sCasinoFX		  matj--	    Loop
+;	(seq\CasNoise.mid)
+;)
+;
+
+;*************************************************************
+;* 7/25/91
+;*************************************************************
+;
+;(742.snd (-p10)		;sCrowdRoar		   m?????
+;	(seq\CrwdRoar.mid)
+;)
+;
+;(743.snd (-p10)		;sCatCalls		   m?????
+;	(seq\CrwdWstl.mid)
+;)
+;
+;(744.snd (-p10)		;sMudSquish		  m?????
+;	(seq\Squish.mid)
+;)
+
+
+;SRC(294.snd (-p10)		;sCrowd				m?????
+;SRC	(seq\Crowd.mid)
+;SRC)
+
+;**	(537.snd (-p10)		;sBanana				m?????	Loop
+;**		(seq\Banana.mid)
+;**	)
+
+
+;***************************************************************
+;* 7/29/91
+;**************************************************************
+
+;**	(330.snd (-p50)		;mMozart			m???s-
+;**		(seq\Mozart.mid)
+;**	)
+;**	
+
+(206.snd (-p10)	;sTVStatic			m?????	Loop
+	(seq\TVStatic.mid)
+)
+
+(147.snd (-p10)		;sYeow				m?????
+	(seq\Yeow.mid)
+)
+
+;CE(260.snd (-p10)		;sFoot1				m?tjs?
+;CE	(seq\Foot1.mid)
+;CE)
+;CE
+;CE(261.snd (-p10)		;sFoot2				m?tjs?
+;CE	(seq\Foot2.mid)
+;CE)
+
+
+
+;***********************************************************
+;* 8/1/91
+;**************************************************************
+
+;**	(500.snd (-p50)         ;mHardRock1             m????-
+;**	        (seq\HrdRock1.mid)
+;**	)
+;**	
+;**	(502.snd (-p50)         ;mHardRock3             m????-
+;**	        (seq\HrdRock3.mid)
+;**	)
+
+
+;**********************************************************
+;* 8/2/91
+;**********************************************************
+
+;SRC(100.snd (-p50)		;mMainTheme		m????-	Loop
+;SRC	(seq\Theme.mid)
+;SRC)
+;SRC
+;SRC(110.snd (-p50)	;mRepriseTheme			m????-	    Loop
+;SRC	(seq\Reprise.mid)
+;SRC)
+
+;**	(230.snd (-p50)		;mDreamTheme		m????-
+;**		(seq\DreamThm.mid)
+;**	)
+;**	
+;**	(345.snd (-p50)		;mSexySax			m????-
+;**		(seq\SexySax.mid)
+;**	)
+;**	
+;**	(370.snd (-p50)		;mJazzPop			m????-
+;**		(seq\JazzPop.mid)
+;**	)
+
+;**	(535.snd (-p50)         ;mMichelle              m????-
+;**	        (seq\Michelle.mid)
+;**	)
+
+;SRC(600.snd (-p50)		;mStruggling		    m????-
+;SRC	(seq\Struggle.mid)
+;SRC)
+
+;(700.snd (-p50)         ;mBoardWalk               m????-
+;        (seq\BoardWlk.mid)
+;)
+
+
+
+;*********************************************************
+;* 8/10/91
+;***********************************************************
+
+(295.snd (-p10)         ;sTrickChairHit            m?tjs?
+        (seq\WhoopLnd.mid)
+)
+
+
+
+;***********************************************************
+;* 8/12/91
+;***********************************************************
+
+(220.snd (-p50)		;mJimBaker		ma???-	  Loop
+	(seq\JimBaker.mid)
+	(seq\adl\JimBaker.mid)
+)
+
+(346.snd (-p50)		;mMusicEnds		ma??s-
+	(seq\DreamEnd.mid)
+	(seq\adl\DreamEnd.mid)
+)
+
+
+
+;************************************************************
+;* 8/19/91
+;************************************************************
+
+;**	(538.snd (-p50)		;mMichelle2			m????-	Loop
+;**		(seq\Michell2.mid)
+;**	)
+
+;*************************************************************
+;* 8/20/91
+;*************************************************************
+
+;SRC(601.snd (-p10)		;sSlap				m?---?
+;SRC	(seq\Slap.mid)
+;SRC)
+
+;**(148.snd (-p10)		;sIdea				matjs-
+;**	(seq\Idea.mid)
+;**)
+
+;**	(252.snd (-p10)		;sAnnouncement1	-----?
+;**		(savesmp\Comm.smp[tam]
+;**	)
+;**	
+
+
+;(253.snd (-p10)		;sAnnouncement2	-----?
+;					;Removed from game
+;	(savesmp\DumyLine.smp[tam]
+;)
+
+;SRC(644.snd (-p10)		;sMessage1			-----?
+;SRC	(savesmp\Message1.smp[tam]
+;SRC)
+;SRC
+;SRC(645.snd (-p10)		;sMessage2			-----?
+;SRC	(savesmp\Message1.smp[tam]
+;SRC)
+;SRC
+;SRC(646.snd (-p10)		;sMessage3			-----?
+;SRC	(savesmp\Message1.smp[tam]
+;SRC)
+
+;**	(751.snd (-p10)		;sCrowdGasp			-----?
+;**		(savesmp\DumyLine.smp[tam])
+;**	)
+;**	
+;**	(752.snd (-p10)		;sGirlAh				-----?
+;**		(savesmp\DumyLine.smp[tam])
+;**	)
+;**	
+;**	(753.snd (-p10)		;sGirlOh				-----?
+;**		(savesmp\DumyLine.smp[tam])
+;**	)
+;**	
+;**	(754.snd (-p10)		;sGirlOo				-----?
+;**		(savesmp\DumyLine.smp[tam])
+;**	)
+;**	
+;**	(755.snd (-p10)		;sGirlAh?				-----?
+;**		(savesmp\DumyLine.smp[tam])
+;**	)
+;**	
+;**	(756.snd (-p10)		;sGirlOh?				-----?
+;**		(savesmp\DumyLine.smp[tam])
+;**	)
+;**	
+;**	(757.snd (-p10)		;sGirlOO?				-----?
+;**		(savesmp\DumyLine.smp[tam])
+;**	)
+
+(758.snd (-p10)		;sGirlLarryUm			-----?
+	(savesmp\DumyLine.smp[tam])
+)
+
+(910.snd (-p50)		;mSalsa			m????-	Loop
+					;play while in dentist chair
+	(seq\Salsa.mid)
+)
+
+
+;********************************************************************
+;* 8/23/91
+;*******************************************************************
+
+;**	
+;**	(455.snd (-p10)		;mDrill			ma----
+;**		(seq\Drill.mid)
+;**	)
+;**	
+
+;SRC(648.snd  (-p10)		;sTracking			ma----	Loop	if needed
+;SRC	(seq\Tracking.mid)
+;SRC)
+
+;(161.snd  (-p10)		;mCoffee			-----?
+;	(savesmp\Coffee.smp[tam])
+;)
+
+
+
+;******************************************************************
+;* 8/29/91
+:******************************************************************
+
+;SRC(460.snd (-p50)		;mDinner			m????-	   Loop
+;SRC	(seq\Dinner.mid)
+;SRC)
+;SRC
+;SRC(462.snd (-p50)		;mEnding			m????-
+;SRC	(seq\Ending.mid)
+;SRC)
+;SRC
+;SRC(463.snd (-p50)		;mLarryBigg		m????-	   Loop
+;SRC	(seq\LarryBig.mid)
+;SRC)
+;SRC
+;SRC(465.snd (-p50)		;sPattiBigg		m????-	   Loop
+;SRC	(seq\PatiBig.mid)
+;SRC)
+;SRC
+;SRC(470.snd (-p50)		;sLoveTheme		m????-
+;SRC	(seq\LoveThem.mid)
+;SRC)
+;SRC
+;SRC(466.snd (-p50)		;sDrawGun			m????-	   Loop
+;SRC	(seq\DrawGun.mid)
+;SRC)
+
+
+;***********************************************************
+;* 8/30/91 
+;**********************************************************
+
+;**	(447.snd (-p10)		;sBoing1			?????x
+;**		(savesmp\Boing1.smp[tam]
+;**	)
+;**	
+;**	(448.snd (-p10)		;sBoing2			?????x
+;**		(savesmp\Boing2.smp[tam]
+;**	)
+;**	
+;**	(449.snd (-p10)		;sBoing3			?????x
+;**		(savesmp\Boing3.smp[tam]
+;**	)
+;**	
+;**	(526.snd (-p10)		;sFatSlob			   ??---x
+;**						;call once for each fork full
+;**		(savesmp\Fatslob.smp[tam])
+;**	) 
+
+(36.snd (-p10)			;sPickupPhone		  ?????x
+	(savesmp\pickup.smp[tam])
+)
+
+(37.snd (-p10)			;sHangupPhone		  ?????x
+	(savesmp\hangup.smp[tam])
+)
+
+;**	(512.snd (-p10)	    ;sPaperRip			   ??---x
+;**					    ;for ripping off the paper tape
+;**		(savesmp\Paperip.smp[tam])
+;**	)
+
+;**	(347.snd (-p10)		;sZipper			?????x
+;**						;Larry unzips pattis dress in Baker Boys scene
+;**		(savesmp\Zip.smp[tam])
+;**	)
+
+;SRC(467.snd (-p50)		;sDinnerFX		-----?		Loop
+;SRC					;Dinner sample FX for state dept.
+;SRC	(savesmp\Din1.smp[tam])
+;SRC)
+
+;**	*** Oliver: You should start 535 (Michelle) upon entering the Holerith
+;**	            room rather than waiting for the closeup.
+;**	
+;**	 		  For the paper tape reader use 258.snd (sCardSlot) instead
+;**	 		  of 292 (sSuckPass). Also see 512 and 526 above.
+;**	
+;**	
+;**	(425.snd (-p50)		;mDesmond3		m???s-		Loop
+;**						;Patti/Desmond talk in Office
+;**		(seq\Desmond3.mid)
+;**	) 
+
+
+;********************************************************
+;* 9/1/91
+;********************************************************
+
+(404.snd (-p10)		;sFootFall2		ma???x
+					;another Patti footstep on wood in Piano Pit
+	(seq\FootFal2.mid)
+	(smp\FFall2.smp[tam])
+)
+
+;**	
+;**	Room 920: use sound 448 (sBoing2) for Larry hitting trampoline.
+;**	
+;**	Room 750: use sound 862 (sZwoosh!) for each piece of flying clothing.
+
+Room 890: use sound 201 (sTVClickOn) for turning on tape machine
+
+ 
+(892.snd (-p10)		;sKRAPGlass		?????x
+	(seq\GlassBrk.mid)
+	(smp\GlsBrk2.smp[tam])
+)
+
+(893.snd (-p10)		;sReelMT			?????x
+					;mount the reel of tape
+	(smp\ReelMT.smp[tam])
+)
+
+;**	(911.snd (-p10)		;sKnckGlas		?????x
+;**						;Larry knocks on dentist window
+;**		(smp\KnckGlas.smp[tam])
+;**	)
+
+;**	(912.snd (-p10)		;sSuction			-----x
+;**							;Chi Chi suctions Larrys mouth
+;**		(smp\Suction.smp[tam])
+;**	)			
+		
+ 
+;**	(913.snd (-p10)		;sHitWall			?????x
+;**						;Larry hits the wall
+;**		(seq\HitWall.smp[tam])
+;**	)
+
+;**	(914.snd (-p10)		;sHitBalls		?????x
+;**						;Larry smashes balls on bar
+;**		(smp\HitNuts.smp[tam])
+;**	)
+;**	
+;**	(790.snd (-p50)		;mSkateShop			m????-	Loop
+;**						;While in Skate shop
+;**		(seq\BWalk2.mid)
+;**	)
+
+(405.snd (-p50)		;mStiffed			m????-		Loop
+					;Patti talks to Club owner
+	(seq\Stiffed.mid)
+)
+
+
+;*******************************************************
+;* 9/2/91
+;*******************************************************
+
+(915.snd (-p10)		;sSlideDown		?????-
+					;Larry turns upside-down on horizontal bar
+	(seq\SlidDown.mid)
+)
+
+;SRC(468.snd (-p10)		;sHelecopter		ma----	Loop
+;SRC					;Endgame helicopter
+;SRC	(seq\Helicopt.mid)
+;SRC)
+
+(296.snd (-p10)		;sCuckoo				------x
+	(smp\SpinMix.smp[tam])
+)
+
+(273.snd (-p10)		;sAnnouncement1	-----x
+					;for inside Airport
+	(smp\Ann1.smp[tam])
+)
+
+(274.snd (-p10)		;sAnnouncement2	-----x
+					;for inside airport
+	(smp\Frenchy2.smp[tam])
+)
+
+(275.snd (-p10)		;sAnnouncement3	-----x
+					;for inside airport
+	(smp\Frenchy3.smp[tam])
+)
+
+(297.snd (-p10)		;sAnnouncement			-----x
+					;For "NOW BOARDING"
+	(smp\Frenchy1.smp[tam])
+)
+
+*** Removed 252.snd ***
+
+
+;******************************************************************
+;*
+;******************************************************************
+
+(481.snd (-p10)		;sAl				-----x
+	(smp\Al.smp[tam])
+)
+
+
+
+

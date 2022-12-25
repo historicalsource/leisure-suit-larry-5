@@ -1,0 +1,415 @@
+;******************************************
+;*** Romaji to Kana conversion Table    ***
+;***                                    ***
+;***                                    ***
+;***     kana    romaji                 ***
+;***     ¦        wo                    ***
+;***                                    ***
+;******************************************
+
+°       - \ ^      ;japanese dash equivalents for IBM and NEC 9801
+
+¦       wo
+
+§       xa
+¨       xi
+©       xu
+ª       xe
+«       xo
+
+¬       xya
+­       xyu
+®       xyo
+¯       xtsu xtu
+
+±       a
+²       i
+³       u
+´       e
+µ       o
+
+¶       ka
+·       ki
+¸       ku kwu
+¹       ke
+º       ko
+
+»       sa
+¼       shi si
+½       su
+¾       se
+¿       so
+
+À       ta
+Á       ti chi
+Â       tsu tu
+Ã       te
+Ä       to
+
+Ý       n nn       ;must go BEFORE other n* conversions
+
+Å       na
+Æ       ni
+Ç       nu
+È       ne
+É       no
+
+Ê       ha
+Ë       hi
+Ì       fu hu
+Í       he
+Î       ho
+
+Ï       ma
+Ð       mi
+Ñ       mu
+Ò       me
+Ó       mo
+
+Ô       ya
+Õ       yu
+Ö       yo
+
+×       ra
+Ø       ri
+Ù       ru
+Ú       re
+Û       ro
+
+Ü       wa
+
+¶Þ      ga
+·Þ      gi
+¸Þ      gu
+¹Þ      ge
+ºÞ      ge
+
+»Þ      za
+¼Þ      zi ji
+½Þ      zu
+¾Þ      ze
+¿Þ      zo
+
+ÀÞ      da
+ÁÞ      di
+ÂÞ      du
+ÃÞ      de
+¿Þ      do
+
+ÊÞ      ba
+ËÞ      bi
+ÌÞ      bu
+ÍÞ      be
+ÎÞ      bo
+
+Êß      pa
+Ëß      pi
+Ìß      pu
+Íß      pe
+Îß      po
+
+³Þ§     va
+³Þ¨     vi
+³Þ      vu
+³Þª     ve
+³Þ«     vo
+
+·¬      kya
+·¨      kyi
+·­      kyu
+·ª      kye
+·«      kyo
+
+¸§      kwa
+¸¨      kwi
+¸ª      kwe
+¸«      kwo
+
+¸¬      qya
+¸­      qyi
+¸®      qyu
+
+¼¬      sya sha
+¼¨      syi
+¼­      syu shu
+¼ª      sye she
+¼®      syo sho
+
+Á¬      tya cya cha
+Á¨      tyi cyi
+Á­      tyu cyu chu
+Áª      tye cye che
+Á®      tyo cyo cho
+
+Â§      tsa
+Â¨      tsi
+Âª      tse
+Â«      tso
+
+Ã¬      tha
+Ã¨      thi
+Ã­      thu
+Ãª      the
+Ã®      tho
+
+Æ¬      nya
+Æ¨      nyi
+Æ­      nyu
+Æª      nye
+Æ®      nyo
+
+Ë¬      hya
+Ë¨      hyi
+Ë­      hyu
+Ëª      hye
+Ë®      hyo
+
+Ì§      fa
+Ì¨      fi fyi
+Ìª      fe fye
+Ì«      fo fyo
+
+Ì¬      fya
+Ì­      fyu
+Ì®      fyo
+
+Ð¬      mya
+Ð¨      myi
+Ð­      myu
+Ðª      mye
+Ð®      myo
+
+Ø¬      rya
+Ø¨      ryi
+Ø­      ryu
+Øª      rye
+Ø®      ryo
+
+·Þ¬     gya
+·Þ¨     gyi
+·Þ­     gyu
+·Þª     gye
+·Þ®     gyo
+
+¼Þ¬     zya ja jya
+¼Þ¨     zyi jyi
+¼Þ­     zyu ju jyu
+¼Þª     zye je jye
+¼Þ®     zyo jo jyo
+
+ÁÞ¬     dya
+ÁÞ¨     dyi
+ÁÞ­     dyu
+ÁÞª     dye
+ÁÞ®     dyo
+
+ÃÞ¬     dha
+ÃÞ¨     dhi
+ÃÞ­     dhu
+ÃÞª     dhe
+ÃÞ«     dho
+
+ËÞ¬     bya
+ËÞ¨     byi
+ËÞ­     byu
+ËÞª     bye
+ËÞ®     byo
+
+Ëß¬     pya
+Ëß¨     pyi
+Ëß­     pyu
+Ëßª     pye
+Ëß«     pyo
+
+
+¯¶      kka
+¯·      kki
+¯¸      kku kkwu
+¯¹      kke
+¯º      kko
+
+¯»      ssa
+¯¼      sshi ssi
+¯½      ssu
+¯¾      sse
+¯¿      sso
+
+¯À      tta
+¯Á      tti cchi
+¯Â      ttsu ttu
+¯Ã      tte
+¯Ä      tto
+
+¯Å      nna
+¯Æ      nni
+¯Ç      nnu
+¯È      nne
+¯É      nno
+
+¯Ê      hha
+¯Ë      hhi
+¯Ì      ffu hhu
+¯Í      hhe
+¯Î      hho
+
+¯Ï      mma
+¯Ð      mmi
+¯Ñ      mmu
+¯Ò      mme
+¯Ó      mmo
+
+¯Ô      yya
+¯Õ      yyu
+¯Ö      yyo
+
+¯×      rra
+¯Ø      rri
+¯Ù      rru
+¯Ú      rre
+¯Û      rro
+
+¯Ü      wwa
+
+¯¶Þ     gga
+¯·Þ     ggi
+¯¸Þ     ggu
+¯¹Þ     gge
+¯ºÞ     gge
+
+¯»Þ     zza
+¯¼Þ     zzi jji
+¯½Þ     zzu
+¯¾Þ     zze
+¯¿Þ     zzo
+
+¯ÀÞ     dda
+¯ÁÞ     ddi
+¯ÂÞ     ddu
+¯¾Þ     dde
+¯¿Þ     ddo
+
+¯ÊÞ     bba
+¯ËÞ     bbi
+¯ÌÞ     bbu
+¯ÍÞ     bbe
+¯ÎÞ     bbo
+
+¯Êß     ppa
+¯Ëß     ppi
+¯Ìß     ppu
+¯Íß     ppe
+¯Îß     ppo
+
+¯³Þ§    vva
+¯³Þ¨    vvi
+¯³Þ     vvu
+¯³Þª    vve
+¯³Þ«    vvo
+
+¯·¬     kkya
+¯·¨     kkyi
+¯·­     kkyu
+¯·ª     kkye
+¯·«     kkyo
+
+¯¸§     kkwa
+¯¸¨     kkwi
+¯¸ª     kkwe
+¯¸«     kkwo
+
+¯¸¬     qqya
+¯¸­     qqyi
+¯¸®     qqyu
+
+¯¼¬     ssya ssha
+¯¼¨     ssyi
+¯¼­     ssyu sshu
+¯¼ª     ssye sshe
+¯¼®     ssyo ssho
+
+¯Á¬     ttya ccya ccha
+¯Á¨     ttyi ccyi
+¯Á­     ttyu ccyu cchu
+¯Áª     ttye ccye cche
+¯Á®     ttyo ccyo ccho
+
+¯Â§     ttsa
+¯Â¨     ttsi
+¯Âª     ttse
+¯Â«     ttso
+
+¯Ã¬     ttha
+¯Ã¨     tthi
+¯Ã­     tthu
+¯Ãª     tthe
+¯Ã®     ttho
+
+¯Æ¬     nnya
+¯Æ¨     nnyi
+¯Æ­     nnyu
+¯Æª     nnye
+¯Æ®     nnyo
+
+¯Ë¬     hhya
+¯Ë¨     hhyi
+¯Ë­     hhyu
+¯Ëª     hhye
+¯Ë®     hhyo
+
+¯Ì§     ffa
+¯Ì¨     ffi ffyi
+¯Ìª     ffe ffye
+¯Ì«     ffo ffyo
+
+¯Ì¬     ffya
+¯Ì­     ffyu
+¯Ì®     ffyo
+
+¯Ð¬     mmya
+¯Ð¨     mmyi
+¯Ð­     mmyu
+¯Ðª     mmye
+¯Ð®     mmyo
+
+¯Ø¬     rrya
+¯Ø¨     rryi
+¯Ø­     rryu
+¯Øª     rrye
+¯Ø®     rryo
+
+¯·Þ¬    ggya
+¯·Þ¨    ggyi
+¯·Þ­    ggyu
+¯·Þª    ggye
+¯·Þ®    ggyo
+
+¯¼Þ¬    zzya jja jjya
+¯¼Þ¨    zzyi jjyi
+¯¼Þ­    zzyu jju jjyu
+¯¼Þª    zzye jje jjye
+¯¼Þ®    zzyo jjo jjyo
+
+¯ÁÞ¬    ddya
+¯ÁÞ¨    ddyi
+¯ÁÞ­    ddyu
+¯ÁÞª    ddye
+¯ÁÞ®    ddyo
+
+¯ÃÞ¬    ddha
+¯ÃÞ¨    ddhi
+¯ÃÞ­    ddhu
+¯ÃÞª    ddhe
+¯ÃÞ«    ddho
+
+¯ËÞ¬    bbya
+¯ËÞ¨    bbyi
+¯ËÞ­    bbyu
+¯ËÞª    bbye
+¯ËÞ®    bbyo
+
+¯Ëß¬    ppya
+¯Ëß¨    ppyi
+¯Ëß­    ppyu
+¯Ëßª    ppye
+¯Ëß«    ppyo
+

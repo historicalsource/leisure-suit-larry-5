@@ -1,0 +1,103 @@
+;**
+;**	Logics for Room 058 -- Text for Using the BoardingPass on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  August 17, 1991
+;**
+
+
+(script# 058)
+
+(BoardingPass
+	;**	iCamcorder		50
+	"If you take the camcorder with you, it won't need its own boarding
+pass."
+
+	;**	iBatteryCharger		51
+	"If you take the battery charger with you, it won't need its own boarding
+pass."
+
+	;**	iMM'sVideotape	52
+	"If you take the videotape with you, it won't need its own boarding
+pass."
+
+	;**	iLL'sVideotape	53
+	"If you take the videotape with you, it won't need its own boarding
+pass."
+
+	;**	iCC'sVideotape	54
+	"If you take the videotape with you, it won't need its own boarding
+pass."
+
+	;**	iMM'sResume		55
+	"If you take Michelle Milken's resume with you, it won't need its own
+boarding pass."
+
+	;**	iHDCNapkin		56
+	"If you take the H.D.C. napkin with you, it won't need its own boarding
+pass."
+
+	;**	iGoldCard	57
+	"If you take the Gold Card with you, it won't need its own boarding
+pass."
+
+	;**	iBoardingPass	58
+	"Click the OK button to close this window."
+
+	;**	iMagazine	59
+	"If you take the AeroDork In-Flight Magazine with you, it won't need its
+own boarding pass."
+
+	;**	iQuarter	60
+	"If you take the quarter with you, it won't need its own boarding pass."
+
+	;**	iDayTrotter		61
+	"If you take the DayTrotter with you, it won't need its own boarding
+pass."
+
+	;**	iMoney		62
+	"If you take the money with you, it won't need its own boarding pass."
+
+	;**	iCreditCards			63
+	"If you take the credit cards with you, it won't need its own boarding
+pass."
+
+	;**	iMembershipTape		64
+	"If you take the membership tape with you, it won't need its own boarding
+pass."
+
+	;**	iLL'sResume		65
+	"If you take the resume with you, it won't need its own boarding pass."
+
+	;**	iCasinoMatchbook	 66
+	"If you take the matchbook with you, it won't need its own boarding
+pass."
+
+	;**	iSilverDollar	67
+	"If you take the Tramp money with you, it won't need its own boarding
+pass."
+
+	;**	iRollerblades	68
+	"If you take the roller skates with you, it won't need its own boarding
+pass."
+
+	;**	iCC'sResume		69
+	"If you take the resume with you, it won't need its own boarding pass."
+
+	;**	iDocPulliam'sCard	 70
+	"If you take Doc Pulliam's business card with you, it won't need its own
+boarding pass."
+
+	;**	iGreenCard		71
+	"If you take the Green Card with you, it won't need its own boarding
+pass."
+
+	;**	iDoily		72
+	"If you take the doily with you, it won't need its own boarding pass."
+
+)

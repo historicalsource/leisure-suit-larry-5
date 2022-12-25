@@ -1,0 +1,165 @@
+;KERNEL.TXT
+;Definitions of the kernel interface for the Script interpreter.
+
+(out-file "vocab.999")
+(header (byte #x86 0))	;set up as a vocab resource
+
+
+	;Resource handling.
+	("Load")
+	("UnLoad")
+	("ScriptID")
+	("DisposeScript")
+
+	;Object management.
+	("Clone")
+	("DisposeClone")
+	("IsObject")
+	("RespondsTo")
+
+	;Pictures.
+	("DrawPic")
+	("Show")
+	("PicNotValid")
+
+	;Animated objects & views.
+	("Animate")
+	("SetNowSeen")
+	("NumLoops")
+	("NumCels")
+	("CelWide")
+	("CelHigh")
+	("DrawCel")
+	("AddToPic")
+
+	;Window/dialog/controls.
+	("NewWindow")
+	("GetPort")
+	("SetPort")
+	("DisposeWindow")
+	("DrawControl")
+	("HiliteControl")
+	("EditControl")
+
+	;Screen text.
+	("TextSize")
+	("Display")
+
+	;Events.
+	("GetEvent")
+	("GlobalToLocal")
+	("LocalToGlobal")
+	("MapKeyToDir")
+
+	;Menu bar & status line.
+	("DrawMenuBar")
+	("MenuSelect")
+	("AddMenu")
+	("DrawStatus")
+
+	;Parsing.
+	("Parse")
+	("Said")
+	("SetSynonyms")
+
+	;Mouse functions.
+	("HaveMouse")
+	("SetCursor")
+
+	;Save/restore/restart.
+	("SaveGame")
+	("RestoreGame")
+	("RestartGame")
+	("GameIsRestarting")
+
+	;Sounds.
+	("DoSound")
+
+	;List handling.
+	("NewList")
+	("DisposeList")
+	("NewNode")
+	("FirstNode")
+	("LastNode")
+	("EmptyList")
+	("NextNode")
+	("PrevNode")
+	("NodeValue")
+	("AddAfter")
+	("AddToFront")
+	("AddToEnd")
+	("FindKey")
+	("DeleteKey")
+
+	;Mathematical functions.
+	("Random")
+	("Abs")
+	("Sqrt")
+	("GetAngle")
+	("GetDistance")
+
+	;Miscellaneous.
+	("Wait")
+	("GetTime")
+
+	;String handling.
+	("StrEnd")
+	("StrCat")
+	("StrCmp")
+	("StrLen")
+	("StrCpy")
+	("Format")
+	("GetFarText")
+	("ReadNumber")
+
+	;Actor motion support.
+	("BaseSetter")
+	("DirLoop")
+	("CanBeHere")
+	("OnControl")
+	("InitBresen")
+	("DoBresen")
+	("DoAvoider")
+	("SetJump")
+
+	;Debugging support.
+	("SetDebug")
+	("InspectObj")
+	("ShowSends")
+	("ShowObjs")
+	("ShowFree")
+	("MemoryInfo")
+	("StackUsage")
+	("Profiler")
+	("GetMenu")
+	("SetMenu")
+
+	("GetSaveFiles")
+	("GetCWD")
+	("CheckFreeSpace")
+	("ValidPath")
+	("CoordPri")
+	("StrAt")
+	("DeviceInfo")
+	("GetSaveDir")
+	("CheckSaveGame")
+	("ShakeScreen")
+	("FlushResources")
+	("SinMult")
+	("CosMult")
+	("SinDiv")
+	("CosDiv")
+	("Graph")
+	("Joystick")
+	("ShiftScreen")
+	("Palette")
+	("MemorySegment")
+	("Intersections")
+	("Memory")
+	("ListOps")
+	("FileIO")
+	("DoAudio")
+	("DoSync")
+	("AvoidPath")
+	("Sort")
+	("ATan")

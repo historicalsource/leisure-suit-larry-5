@@ -1,0 +1,337 @@
+
+                          New PolyMake Features
+
+PolyMake versions subsequent to V2.0 have several powerful new features not
+yet documented.  These features facilitate the creation of even more
+adaptable makefiles to support development efforts with special needs.
+The new features fall into the following general categories:
+
+    - special dependencies
+    - new source form
+    - built-in "commands" for use in operation lines
+    - conditional constructs
+    - new flags
+    - new macros
+
+    
+Special Dependencies
+
+There exist two new special targets - .INIT and .DEINIT.  These targets
+are used in the following way:
+
+    .INIT :
+    	<operations>
+    	
+    .DEINIT :
+    	<operations>
+    	
+The syntax is identical to regular dependencies except that no sources
+are required.  If PolyMake needs to execute any operations, it first looks
+for the .INIT depencency and executes all operations associated with it.
+This feature is especially helpful to prepare the environment for different
+build processes depending on the value of environment variables, macros, etc.
+
+After PolyMake has completed the make process for all targets of interest
+AND it has executed at least one operation line, it then executes the
+operations associated with the .DEINIT target.
+
+
+New Source Form
+
+In the context of sources associated with a target, PolyMake now supports
+a library member reference.  For example, let's say that an executable called
+TEST.EXE depends on the module INPUT in the library COMMON.LIB in addition
+to the object file FORMAT.OBJ.  The following dependency line can be used to
+represent this relationship.
+
+     TEST.EXE : COMMON.LIB(INPUT) FORMAT.OBJ
+          <operations>
+          
+alternatively,
+
+     TEST.EXE : COMMON.LIB(INPUT.OBJ) FORMAT.OBJ
+          <operations>
+          
+
+When the target TEST.EXE is made, each of its sources in turn is made.
+In order to "make" COMMON.LIB(INPUT), the library COMMON.LIB must first be
+made.  The timestamp of the module INPUT is then extracted from the library.
+If the module INPUT does not exist in the library, PolyMake will declare
+that it doesn't know how to make COMMON.LIB(INPUT).
+
+If a target depends on more than one module in a library, a module list
+may be given.  For example,
+
+     TEST.EXE : COMMON.LIB(INPUT.OBJ OUTPUT.OBJ VALIDATE.OBJ) FORMAT.OBJ
+          <operations>
+
+Similarly, a macro may be used to give the module names.
+
+     TEST.EXE : COMMON.LIB($(LIBOBJS)) FORMAT.OBJ
+          <operations>
+
+One peculiarity of using the member reference as a source is that the
+contribution to the $? and $** macros due to the member reference will be
+the name of the library only.
+
+
+Built-in commands
+
+The following built-in "commands" can be used in the operation lines
+associated with dependencies.  Note that each built-in command is
+prefixed by a percent sign to distinguish it from normal DOS commands.
+
+    %setenv <variable> = [ <value> ]
+    %set <macro> = <value>
+    %exit [ <exit code> ]
+
+The %setenv command allows DOS environment variables to be modified during
+the make process.  This is especially useful (in conjunction with the .INIT
+dependency, above) to set up the LIB environment variable (used by the linker)
+to customize the build process for a particular compiler.  For example, if
+some of your applications use the Lattice C compiler and some use Microsoft C,
+the following two makefile excerpts would be very useful.
+
+For makefiles using Microsoft C 
+
+    .INIT :
+        %setenv LIB=c:\lib\msc
+
+For makefiles using Lattice C 
+
+    .INIT :
+        %setenv LIB=c:\lib\lc
+
+This assumes that the libraries for the Microsoft and Lattice compilers are
+in the directories c:\lib\msc and c:\lib\lc respectively.
+
+Two aspects of the %setenv should be kept in mind.  Firstly, %setenv modifies
+the environment are ONLY for the make process itself; after make concludes,
+the original environment will be restored.  This is an artifact of the
+process control stragegy of DOS.  Secondly, %setenv does NOT modify the value
+of any macros within make, even those originally derived from the environment.
+
+The %set command is used to create new macros and modify macro values.  The
+utility of this command is affected by the macro expansion algorithm.  The
+desciption below details when macro invocations are expanded.
+
+The %exit command is used to prematurely terminate a sequence of operations
+and optionally abort the make process.  If the <exit code> value is non-zero
+the make process will be aborted, otherwise the process continues.  This
+command is particularly useful in conjunction with conditionals (see below)
+to handle DOS commands that return multiple non-zero exit codes some of
+which are acceptable and/or expected.
+
+
+Conditional Constructs
+
+The most powerful new feature is the inclusion of conditionals in makefiles.
+In general, this feature allows a makefile to be dynamically "modified" at
+make-time to adapt to various situations.  A typical use of this feature
+would be to use a single makefile to build different versions of an
+application depending on the value of a macro.
+
+The conditional construct has the general form:
+
+     %if <expr>
+     <text>
+     %elseif <expr>
+     <text>
+     %else
+     <text>
+     %endif
+
+where the %elseif clause can be used zero or more times and the %else
+clause can be used zero or one times.  The %end clause is synonymous
+with %endif.  The <text> can be any valid makefile text including
+additional conditional constructs.  This nesting is allowed to an
+arbitrary depth limited by the amount of memory available.
+
+The controlling <expr> consists of operators, string values and numeric values.
+The supported operators, given in order of decreasing precedence, are as
+follows:
+
+     !              logical negation (NOT)
+     <, >, >=, <=   less than, greater than, greater than or equal,
+                    less than or equal
+     == =, != <>    equality, inequality
+     && &           logical conjunction (AND)
+     ^^ ^           logical exclusion (XOR)
+     || |           logical disjunction (OR)
+
+Operators with the same precedence level group left to right except for
+negation which groups from right to left.  Parentheses may be used to force
+the desired associations.  Note that the operators fall into two general
+types: logical and relational.  The effect of the operator depends on both
+its type and its operands.
+
+The operands are also of two general types: string values and numerics.
+A string value is any string of characters not containing the operator
+characters, whitespace nor double quote.  A numeric value is simply
+the numeric equivalent of a string value that contains nothing but digits.
+Built-in functions, described below, currently return only numeric values.
+
+For the logical operations, numeric values are considered to be either
+TRUE or FALSE depending on whether they are non-zero or zero respectively.
+Similarly, string values are considered to be either TRUE or FALSE depending
+on whether the string is non-null or null respectively.
+
+For the relational operations, if both operands are string values, the
+comparison is done lexicographically using the ASCII collating sequence.
+If both operands are numeric values, the comparison is done using 16 bit
+signed arithmetic.  If one of the operands is numeric and the other is
+a string value, the numeric value is converted to its equivalent string
+value.
+
+Macros may be used in expressions; they are replaced by their equivalent
+strings before expression evaluation.  Macros that have a null equivalent
+may cause problems as in the following makefile fragment.
+
+     %if $(VERSION) == INTERNAL
+     FLAGS = -dDIAG
+     %else
+     FLAGS = -dRELEASE
+     %endif
+
+If the $(VERSION) macro is undefined or null, the expression will be
+improperly formed.  There are two ways to prevent this as shown below.
+
+     %if "$(VERSION)" == INTERNAL
+     FLAGS = -dDIAG
+     %else
+     FLAGS = -dRELEASE
+     %endif
+
+or
+
+     %if X_$(VERSION) == X_INTERNAL
+     FLAGS = -dDIAG
+     %else
+     FLAGS = -dRELEASE
+     %endif
+
+In the first example, the quote characters will form a null string if
+the macro is null.  Either quotes or apostrophes may be used in this
+context.  In the second example, a leading, string is used to force the
+left hand side of the expression to be non-null.
+
+Several built-in functions are provided that may be used in expressions.
+Currently, all of the functions return numeric values.
+
+     %status              the exit code of the last operation executed
+     %exists(name)        non-zero if the file or directory "name" exists
+     %file(name)          non-zero if the file "name" exists
+     %dir(name)           non-zero if the directory "name" exists
+     %writable(name)      non-zero if the file "name" is writable
+     %member(name, list)  non-zero if the name "name" is in the "list"
+          
+As mentioned earlier, the %status function is useful to distinguish among
+several non-zero exit codes returned by a command.  For example,
+
+     target : sources
+          -appl arg1 arg2
+          %if %status > 2
+          %exit %status
+          %end
+
+Here, the operation "appl" returns exit codes zero and one, both of which
+are OK, but anything two or greater means an error.  The "-" modifier on
+the "appl" command keeps PolyMake from aborting due to the non-zero exit
+code.  Then the %if tests the value of the exit code and causes an exit
+for anything greater than one.
+
+The %member function allows the detection of special names.  For example:
+
+     SPECIAL_SOURCES = t1.c t2.c
+     .c.obj :
+         %if %member($<, $(SPECIAL_SOURCES))
+         cc $(SPECIAL_FLAGS) $<
+         %else
+         cc $(FLAGS) $<
+         %endif
+
+This fragment allows a single translation rule to handle special cases.
+Note the test for membership in done in a case insensitive fashion.
+
+
+Makefile Processing and Macro Expansion
+
+The make process is carried out in two steps - first the entire makefile
+is read, then the target or targets are "made".  These two processes are
+referred to as read-time and make-time.  When the makefile is read,
+conditional construct clauses that begin in the first column are acted
+upon while those beginning in other than the first column (ie. in a series
+of operation lines) are not.  This allows some interesting effects to be
+created.  Consider the following makefile fragment.
+
+     target : sources
+     %if "$(TEST)"
+          -appl arg1 arg2
+          %if %status > 2
+          %exit %status
+          %end
+     %else
+          appl arg1 arg2
+     %end
+
+The outer "if" construct is acted upon when the makefile is read effectively
+changing the set of operations depending on whether or not the TEST macro is
+defined.  The inner "if" construct, since it does not begin in the first
+column, is not acted upon until the operation lines are executed.
+
+Also, when the makefile is read, macros are expanded in all lines except
+operation lines.  The operation line macros are expanded just prior to
+executing the operations.  This, too, allows some interesting effects.
+When a macro is defined, it is effective until it is redefined.  This allows
+the same macro to assume different values in different parts of the makefile.
+Similarly, the %set built-in command can set macro values.  This allows one
+series of operations to affect how another series of operations are carried
+out.
+
+New Flags
+
+In support of the new features, we have added two new flags.  The -V flag
+will cause the conditional lines in operations line sequences to be
+displayed; normally they are not.  This may be helpful in determining
+why certain operations were done or not.  We have also added a method to
+invoke certain diagnostic operations.  The -#<number> option is used to
+give a diagnostic code represented by <number>.  The diagnostic code
+is composed of bits that control certain functions.
+
+       1   don't delete the local input script temp file when done
+       2   display the effective makefile to stdout and exit
+       4   display an elapsed time upon completion
+
+Code 2 is useful to view the effective makefile, ie. that part of the
+makefile that either was not within conditional constructs or was in the
+TRUE part of a conditional construct.  Typically, this will be used with
+redirection to capture the result in a file for analysis.
+
+The individual codes may be combined, -#5 means keep the local input
+script and also display the elapsed time.  The <number> is interpreted
+in hexadecimal.  We may add additional diagnostic codes in the future.
+
+New Macros
+
+Often times it is necessary to choose names from a list for certain
+operations.  For example, in the discussion above regarding the library
+member construct that can appear as a source in a dependency line, it
+will usually be the case that the operation lines need to include only
+the .OBJ files from the list of all sources.  The "matching" macro allows
+such selections to be made.  The syntax of this new macro is:
+
+      $[m,<pattern>,<string list>]
+
+Currently, the pattern is used similarly to wild card file specification
+in DOS.  This means that the pattern may contain ? and * characters in
+addition to normal filename characters.  The ? matches any single, non-null
+character while * matches all remaining characters in the filename
+component.  For the purposes of this matching process, a filename contains
+two components - the extension and the remainder of the filename are
+handled separately.  An example will help clarify the process.
+
+     TEST.EXE : COMMON.LIB(INPUT.OBJ) FORMAT.OBJ
+         link $[m,*.obj,$**]
+
+This example selects only the object files from the complete list of
+sources.  Note that case is insignificant in the matching algorithm.

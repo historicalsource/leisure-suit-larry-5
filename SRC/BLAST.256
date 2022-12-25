@@ -1,0 +1,19 @@
+view		=*.v56; \games\ll5\prog\view\*.v56
+palette	=.; \games\ll5\prog\view
+pic		=.; \games\ll5\prog\pic
+bitmap	=.; \games\ll5\prog\pic
+
+script	=.; \games\ll5\prog\script; s:
+text		=.; \games\ll5\prog\script; s:
+vocab		=.; \games\ll5\prog\script; s:
+font		=\games\ll5\prog\font;   	 s:
+cursor	=\games\ll5\prog\cursor; 	 s:
+
+sound		=\games\ll5\prog\sound
+patch		=\games\ll5\prog\sound
+
+soundDrv =s:sndblast.drv
+videoDrv =s:vga320.drv
+kbdDrv   =s:ibmkbd.drv
+mouseDrv =YES
+minHunk  =250k

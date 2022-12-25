@@ -1,0 +1,8 @@
+*.tga
+scratch.*
+*.rst
+*.cel
+*.tmp
+tmp.*
+*.lbm
+*.$$$

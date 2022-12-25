@@ -1,0 +1,19 @@
+Carlos:  What I really wanted to happen here:
+						((and (Btst pfGotInfoRB)
+								(Btst pfGotInfoPC))
+							(TPrint "xxx You already have the information you need,
+								Patti!")
+							(++ state)
+							(= cycles 2)
+						)
+was this:
+(TPrint "You dial Inspector Desmond's office.")
+(TPrint "\"Hello, Desmond here!\"")
+(TPrint "\"Inspector, this is Patti, calling from the limo cell phone.\"")
+(TPrint "\"Oh, hi, Patti? Everything going alright?\"")
+(TPrint "\"Oh, yes, Inspector! Just thought I'd tell you where I was.\"")
+(TPrint "\"You're just like everyone who gets a cell phone,\" he laughs,
+	\"you always call to say you're using it!
+	Don't run up the company bill too much, OK?\"")
+(TPrint "\"Okay, Inspector Desmond.  See you later.\"")
+(TPrint "\"Bye, Patti. And... good luck!\"")

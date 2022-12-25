@@ -1,0 +1,14 @@
+PC's recording sign should always be lit; Patti's should only be lit
+when she's recording (ie, in 890). 
+
+
+Work with AL on the tape recorder sequence.  Here are a few bugs you may
+want to fix before your next performance review:
+	the feature on the reel-to-reel recorder is too tight;
+	the pic still has the reel in it; 
+	you can't record talking if you haven't turned on the console; 
+	remove the piece of pic from the shot outside the room (2nd pic in 890); 
+	add complete verbs to the microphone, the tapes, the recorder,
+		the console;
+	exit through the window, not behind the console;
+	fix PC Hammer's stepSize

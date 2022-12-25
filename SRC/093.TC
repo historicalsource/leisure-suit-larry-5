@@ -1,0 +1,74 @@
+;**
+;**   Logics for Room 093 -- Text for Using the Bra on _____
+;**
+;**   LSL5:  Passionate Patti Does A Little Undercover Work
+;**			 Copyright 1991
+;**			 by Al Lowe
+;**
+;**   Humorous Text By:  Josho
+;**
+;**   Last Update:  August 25, 1991
+;**
+
+
+(script# 093)
+
+(Bra
+	;**   iDataMan				80
+	"Don't shoot the DataMan; he's doing the best he can."
+
+	;**   iDataPak1Biaz		 81
+	"You aim your .38-caliber 38Ds at the Reverse Biaz DataPak, but at
+the last moment, you wisely decide to save your ammo!"
+
+	;**   iDataPak2Hammer	82
+	"You aim your .38-caliber 38Ds at the P. C. Hammer DataPak, but at
+the last moment, you wisely decide to save your ammo!"
+
+	;**   iFax1ReverseBiaz	83
+	"There are enough holes in your story already without you blowing a
+few more through the Reverse Biaz fax."
+
+	;**   iChampagne			84
+	"Although it would be impressive, there are better ways to open a
+champagne bottle than with your Hooter Shooter."
+
+	;**   iGoldRecord			85
+	"There's already a hole right through the center of the gold
+record."
+
+	;**   iCassetteTape		 86
+	"There are two holes in the cassette tape already, so there's no
+need to create two more."
+
+	;**   iFax2PCHammer		 87
+	"There are enough holes in this story as it is without you blowing
+a few more through the P. C. Hammer fax."
+
+	;**   iLetterOpener		 88
+	"Being made of high-carbon, case-hardened steel, the letter opener
+would resist the projectiles from your full, rounded weapons."
+
+	;**   iDeskKey				89
+	"Setting off your Hooter Shooter in here will only attract
+unwanted attention!"
+
+	;**   iFolderOfEvidence	90
+	"You don't do much spying, do you?  The idea is to gather your
+evidence without letting anybody know you've been snooping around.
+Blasting away at the originals with your Hooter Shooter may be a
+tip-off."
+
+	;**   iPhotocopies		91
+	"This is your evidence, Patti. Save your bullets for the bad
+guys."
+
+	;**   iReelToReelTape	92
+	"This is your evidence, Patti. Save your bullets for the bad
+guys."
+
+	;**   iBra					93
+	"Click the OK button to close this window."
+
+)
+

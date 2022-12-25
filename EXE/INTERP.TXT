@@ -1,0 +1,172 @@
+\\;
+\\; E_DISK_ERROR
+\\1
+Disk Erro', dig dis, dig dis:
+%s.
+ENTER t' retry.  Ya' know?  Ya' know?
+ESC t' %s.
+
+\\;
+\\; E_CANCEL
+\\2
+cancel
+\\;
+\\; E_QUIT
+\\3
+quit
+\\;
+\\; E_DISK_ERROR_MSG
+\\4
+Disk be scribble protected
+\\5
+Unknown unit
+\\6
+Not ready
+\\7
+?
+\\8
+CRC erro'
+\\9
+?
+\\10
+Seek erro'
+\\11
+?
+\\12
+Secto' not found
+\\13
+?
+\\14
+Scribble fault
+\\15
+Eyeball fault
+\\16
+General failure
+\\;
+\\; E_OOPS_TXT
+\\25
+Ya' dun dun did sump'n dat we weren't 'spectin'.
+Whateva' it wuz, ya' duzn't need t' do it t' finish de game.  Sheeeiit.  Sheeeiit.
+Try takin' some different approach t' de situashun.  
+Erro' %d.  Sheeeiit.  Sheeeiit.  SCI Version %s
+\\;
+\\; E_OOPS
+\\26
+Oops.  Right On.  Right On!
+\\;
+\\; E_NO_DEBUG
+\\27
+ Debug not available.  Sheeeiit.  Right On.  Right On! erro' #%d 
+\\;
+\\; E_NO_AUDIO_DRVR
+\\28
+Can't find audio driva' '%s'.  Right On.  Right On!
+
+\\;
+\\; E_NO_AUDIO
+\\29
+Unable t' initialize yo' audio hardware.  Sheeeiit.  Sheeeiit.
+\\;
+\\; E_NO_CD_MAP
+\\30
+Unable t' locate de damn cd-language map stash.  What it is, Mama!
+\\;
+\\; E_INSERT_DISK
+\\31
+Please insert
+Disk %d in roll %s
+and press ENTER.%s
+\\;
+\\; E_NO_LANG_MAP	
+\\32
+Unable t' locate de damn language map stash.  What it is, Mama!
+\\;
+\\; E_INSERT_STARTUP
+\\33
+Please insert
+Startup Disk in roll %s
+and press ENTER.%s
+\\;
+\\; E_NO_KBDDRV
+\\34
+No keyboard driva'.  Right On!
+\\;
+\\; E_NO_HUNK
+\\35
+Out o' hunk.  What it is, Mama!  Right On.  Right On!
+\\;
+\\; E_NO_HANDLES
+\\36
+Out o' handles.  Right On.  Right On!
+\\;
+\\; E_NO_VIDEO
+\\37
+Couldn't install video driva'.  Right On!
+\\;
+\\; E_CANT_FIND
+\\38
+Couldn't find %s.
+\\;
+\\; E_NO_PATCH
+\\39
+Couldn't find PatchBank.  What it is, Mama!  Whut it be, Mama.  Right On!
+\\;
+\\; E_NO_MUSIC
+\\40
+Unable t' initialize yo' music hardware.  Sheeeiit.  Sheeeiit.
+\\;
+\\; E_CANT_LOAD
+\\41
+Can't load %s.  Right On.  Right On!
+
+\\;
+\\; E_NO_INSTALL
+\\42
+Can't find configurashun stash, dig dis, dig dis: %s
+Please run de Install honky code.  Sheeeiit.
+
+\\;
+\\; E_RESRC_MISMATCH
+\\43
+Resource type mismatch
+\\;
+\\; E_NOT_FOUND
+\\44
+%s not found.  Sheeeiit.  Sheeeiit.
+\\;
+\\; E_WRONG_RESRC
+\\45
+Wrong resource type.  Sheeeiit.  Right On.  Right On!
+Lookin' fo' $%x #%d
+\\;
+\\; E_LOAD_ERROR
+\\46
+Load erro', dig dis, dig dis: %s
+RETURN continues
+ESC quits
+\\;
+\\; E_MAX_SERVE
+\\47
+Maximum numba' o' servers 'sceeded.  Sheeeiit.  Sheeeiit.
+
+\\;
+\\; E_NO_DEBUGGER
+\\48
+No Dubugga' Available.  Sheeeiit.  Sheeeiit.
+\\;
+\\; E_NO_MINHUNK
+\\49
+Yo' config stash must gots some minHunk value.  Sheeeiit.  Sheeeiit.
+\\;
+\\; E_NO_MEMORY
+\\50
+Ya' need %U more bytes o' free memory available t' run dis game.  Sheeeiit.  Sheeeiit.
+If ya' gots any resident software loaded please remove it and try again.
+\\;
+\\; E_CONF_STORAGE
+\\51
+Out o' configurashun storage.  Sheeeiit.  Sheeeiit.
+\\;
+\\; E_BAD_PIC
+\\52
+Bad picture code

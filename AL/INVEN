@@ -1,0 +1,48 @@
+; LARRY Inventory objects
+(enum
+	iCamcorder
+	iBatteryCharger
+	iVideotape1
+	iVideotape2
+	iVideotape3
+	iMM'sResume
+	iHDCNapkin
+	iGoldCard
+	iBoardingPass
+	iMagazine
+	iQuarter
+	iDayTrotter
+	iMoney
+	iCreditCards
+	iMembershipTape
+	iLL'sResume
+	iCasinoMatchbook
+	iSilverDollar
+	iRollerblades
+	iCC'sResume
+	iDocPulliam'sCard
+	iGreenCard
+	iDoily
+)
+
+
+; PATTI Inventory objects
+(enum
+	iDataMan
+	iDataPak1Biaz
+	iDataPak2Hammer
+	iFax1ReverseBiaz
+	iChampagne
+	iGoldRecord
+	iCassetteTape
+	iFax2PCHammer
+	iLetterOpener
+	iDeskKey
+	iFolderOfEvidence
+	iPhotocopies
+	iReelToReelTape
+	iBra
+)
+
+
+

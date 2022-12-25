@@ -1,0 +1,100 @@
+;**
+;**	Logics for Room 051 -- Text for Using the BatteryCharger on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  September 10, 1991
+;**
+
+
+(script# 051)
+
+(BatteryCharger
+	;**	iCamcorder		50
+	"To charge your camcorder, first find an electrical outlet, then plug the
+charger into the outlet. Then plug your camcorder into the charger."
+
+	;**	iBatteryCharger		51
+	"Click the OK button to close this window."
+
+	;**	 iMM'sVideotape			52
+	"Trying to degauss the tape with your battery charger simply won't work,
+Larry."
+
+	;**	 iLL'sVideotape			53
+	"Trying to degauss the tape with your battery charger simply won't work,
+Larry."
+
+	;**	 iCC'sVideotape			54
+	"Trying to degauss the tape with your battery charger simply won't work,
+Larry."
+
+	;**	 iMM'sResume	55
+	"The battery charger won't fit into Michelle's dossier...  but isn't it
+fun to try?"
+
+	;**	 iHDCNapkin	56
+	"You clumsily attempt to set fire to the Hard Disk Cafe napkin with your
+battery charger. You fail."
+
+	;**	 iGoldCard			57
+	"Be careful you don't accidentally erase that little magnetic strip on
+back of the AeroDork Gold Card."
+
+	;**	 iBoardingPass		58
+	"Charging the Boarding Pass is an exercise in futility (a sensation with
+which you're wholly familiar!)."
+
+	;**	 iMagazine			59
+	"You sensuously insert the battery charger into the tightly-rolled
+magazine and then slowly withdraw it. A tremble runs through your
+underdeveloped body."
+
+	;**	 iQuarter		60
+	"Somewhere in the darkest recesses of your brain, you faintly recall that
+charging a quarter will never make it a dollar!"
+
+	;**	 iDayTrotter	61
+	"The convenient little DayTrotter has no need for spurious electrons!"
+
+	;**	 iMoney				62
+	"Another totally pointless act... much like your birth, Larry."
+
+	;**	 iCreditCards		63
+	"You don't need the charger for that. The credit cards will let you
+charge anything you want!"
+
+	;**	 iMembershipTape	64
+	"Your attempt to charge the H.D.C. Membership Tape. You fail miserably."
+
+	;**	 iLL'sResume	65
+	"The battery charger won't fit into Lana's folder."
+
+	;**	 iCasinoMatchbook	66
+	"The matches use common chemical compounds to create heat and light, and
+thus require no recharging."
+
+	;**	 iSilverDollar		67
+	"You can't charge the Tramp Casino silver dollars."
+
+	;**	 iRollerblades		68
+	"Your blades use people power, not battery power."
+
+	;**	 iCC'sResume	69
+	"The charger won't fit into Chi Chi's folder."
+
+	;**	 iDocPulliam'sCard		70
+	"It's useless to recharge Doc Pulliam's business card."
+
+	;**	 iGreenCard	71
+	"What in the world were you thinking of? You can't recharge your Green
+Card!"
+
+	;**	 iDoily				72
+	"The doily is already fully charged. (Just kidding!)"
+
+)

@@ -1,0 +1,71 @@
+Cel dimentions are different.
+Loop: 0  Cel: 0.
+	..\view\640.v16: xDim=37, yDim=87.
+	..\view\640.v56: xDim=31, yDim=77.
+
+Cel origins are different.
+Loop: 0  Cel: 0.
+	..\view\640.v16: xOrg=13, yOrg=72.
+	..\view\640.v56: xOrg=12, yOrg=66.
+
+Cel dimentions are different.
+Loop: 0  Cel: 1.
+	..\view\640.v16: xDim=37, yDim=87.
+	..\view\640.v56: xDim=31, yDim=77.
+
+Cel origins are different.
+Loop: 0  Cel: 1.
+	..\view\640.v16: xOrg=13, yOrg=72.
+	..\view\640.v56: xOrg=12, yOrg=66.
+
+Cel dimentions are different.
+Loop: 0  Cel: 2.
+	..\view\640.v16: xDim=37, yDim=87.
+	..\view\640.v56: xDim=31, yDim=77.
+
+Cel origins are different.
+Loop: 0  Cel: 2.
+	..\view\640.v16: xOrg=13, yOrg=72.
+	..\view\640.v56: xOrg=12, yOrg=66.
+
+Cel dimentions are different.
+Loop: 1  Cel: 0.
+	..\view\640.v16: xDim=28, yDim=57.
+	..\view\640.v56: xDim=28, yDim=56.
+
+Cel origins are different.
+Loop: 1  Cel: 0.
+	..\view\640.v16: xOrg=13, yOrg=54.
+	..\view\640.v56: xOrg=13, yOrg=0.
+
+Cel dimentions are different.
+Loop: 1  Cel: 1.
+	..\view\640.v16: xDim=32, yDim=62.
+	..\view\640.v56: xDim=28, yDim=56.
+
+Cel origins are different.
+Loop: 1  Cel: 1.
+	..\view\640.v16: xOrg=13, yOrg=54.
+	..\view\640.v56: xOrg=13, yOrg=0.
+
+Cel dimentions are different.
+Loop: 1  Cel: 2.
+	..\view\640.v16: xDim=32, yDim=62.
+	..\view\640.v56: xDim=28, yDim=56.
+
+Cel origins are different.
+Loop: 1  Cel: 2.
+	..\view\640.v16: xOrg=13, yOrg=54.
+	..\view\640.v56: xOrg=13, yOrg=0.
+
+Cel dimentions are different.
+Loop: 2  Cel: 0.
+	..\view\640.v16: xDim=26, yDim=20.
+	..\view\640.v56: xDim=20, yDim=17.
+
+Cel origins are different.
+Loop: 2  Cel: 0.
+	..\view\640.v16: xOrg=1, yOrg=10.
+	..\view\640.v56: xOrg=0, yOrg=0.
+
+14 differences found.

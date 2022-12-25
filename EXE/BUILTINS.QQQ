@@ -1,0 +1,50 @@
+# BUILTINS.QQQ
+
+# This rule says a .OBJ file should be created by
+# using the Lattice C compiler on a .C file.
+#
+.c.obj :
+     lc1 $<
+     lc2 $*.q
+
+# This rule says a .OBJ file should be created by
+# using the IBM Pascal compiler on a .PAS file.
+#
+.pas.obj :
+     pas1 $<;
+     pas2;
+
+# This rule says a .OBJ file should be created by
+# using the IBM FORTRAN Compiler on a .FOR file.
+#
+.for.obj :
+     for1 $*;
+     for2
+
+# This rule says a .OBJ file should be created by
+# using the IBM Macro Assembler on a .ASM file.
+#
+.asm.obj :
+     masm $<;
+
+# This rule says a .OBJ file should be created by
+# using the IBM Basic Compiler on a .BAS file.
+#
+.bas.obj :
+     bascom $*;
+
+# Note: Because of the order of the above 5 rules,
+#       PolyMake will first look for a .C file with
+#       the same root as the .OBJ file.  If no .C
+#       file exists, PolyMake will look for a .PAS
+#       file.  If it doesn't exist, PolyMake will
+#       look for a .FOR file, a .ASM file, and a
+#       .BAS file, in that order.
+
+# This rule tells how to make a .COM file from a .EXE file
+#
+.exe.com :
+	exe2bin $< $@
+
+# END
+

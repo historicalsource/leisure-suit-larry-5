@@ -1,0 +1,64 @@
+
+                  PolyMake Configuration Procedure
+
+For those user who wish to semi-permanently modify the default
+characteristics of PolyMake the following procedure will suffice.
+Note that the addresses given apply ONLY to PolyMake V2.1, other
+versions will probably not have their configuration information at
+the same addresses.
+
+IMPORTANT!  Do not attempt to modify the configuration data in your
+            distribution copy of PolyMake.  Always modify a
+            copy of your distribution disk.  That way, if something
+            goes wrong you will have the original to go back to.
+
+CAUTION!    Polytron Corp. is providing the following information as
+            a service to the advanced user.  The information herein
+            is correct and, when followed EXACTLY, will not impair
+            the functionality of the PolyMake version for which
+            it is provided.  Polytron Corp. cannot, however, assume
+            responsibility for the operation of any copy of
+            PolyMake that is or has been modified in any way
+            including, but not limited to, the application of the
+            the information herein.  Any user that undertakes the
+            configuration of PolyMake assumes all risk for the
+            consequences thereof.
+
+Step 1.  Rename PolyMake
+
+   RENAME MAKE.EXE X
+
+Step 2.  Invoke a debugger (in this case DEBUG supplied with MS-DOS)
+
+   DEBUG X
+
+Step 3. Examine and change the configuration parameters of interest.
+
+   The following configuration parameters occupy two bytes of memory
+   beginning at the given address.  Both addresses and values are
+   given in hexadecimal with respect to the value contained in DS
+   when debug loads the file.
+
+      parameter            address      factory default value
+     STACK SIZE            CD4D-E       A0 0F  (4000 decimal)
+     MEMORY POOL SIZE      E554-5       FF FF  (maximum available) 
+
+Step 4. Write the modified file back to disk
+
+   W
+
+INPORTANT!  It is imperative that the BX and CX registers not be
+            modified from the values they assumed immediately after
+            DEBUG loaded the file.
+
+Step 5.  Exit DEBUG
+
+   Q
+
+Step 6.  Change the name back.
+
+  RENAME X MAKE.EXE
+
+The reconfigured PolyMake is ready to use.
+
+

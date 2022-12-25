@@ -1,0 +1,70 @@
+;**
+;**   Logics for Room 091 -- Text for Using the Photocopies on _____
+;**
+;**   LSL5:  Passionate Patti Does A Little Undercover Work
+;**			 Copyright 1991
+;**			 by Al Lowe
+;**
+;**   Humorous Text By:  Josho
+;**
+;**   Last Update:  August 25, 1991
+;**
+
+
+(script# 091)
+
+(Photocopies
+	;**   iDataMan					80
+	"If you hang onto the photocopies, you won't need to enter them
+into the DataMan."
+
+	;**   iDataPak1Biaz			81
+	"There's no room in the DataPaks for the photocopies... they're
+already full of complex miniaturized electronic components."
+
+	;**   iDataPak2Hammer	  82
+	"There's no room in the DataPaks for the photocopies... they're
+already full of complex miniaturized electronic components."
+
+	;**   iFax1ReverseBiaz	 83
+	"There's no reason to put the photocopies, which are truly damning
+evidence, in with the fax, which isn't even interesting."
+
+	;**   iChampagne			 84
+	"Surely you'd be better off not putting the scandalous,
+incriminating photocopies into the champagne!"
+
+	;**   iGoldRecord			85
+	"Keep your evidence separate."
+
+	;**   iCassetteTape			86
+	"Keep your evidence separate."
+
+	;**   iFax2PCHammer			87
+	"There's no reason to put the photocopies, which are truly damning
+evidence, in with the fax, which isn't even interesting."
+
+	;**   iLetterOpener			88
+	"Just keep the photocopies and leave the office as you found it?"
+
+	;**   iDeskKey					89
+	"Just keep the photocopies and leave the office as you found it?"
+
+	;**   iFolderOfEvidence	90
+	"Just return the folder to the desk drawer so no one knows you
+took it. Then take these photocopies back to show the guys at the
+FBI."
+
+	;**   iPhotocopies		91
+	"Click the OK button to close this window."
+
+	;**   iReelToReelTape	  92
+	"The photocopies won't work with the reel-to-reel tape."
+
+	;**   iBra					 93
+	"Putting the photocopies in your bra will not only crinkle the
+photocopies, but will increase your risk of painful and embarrassing
+paper cuts."
+
+)
+

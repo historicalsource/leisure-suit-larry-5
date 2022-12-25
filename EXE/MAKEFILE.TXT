@@ -1,0 +1,3 @@
+help :
+	@echo ......Enter MAKE -H for help information.
+	@echo ......See the User's Manual for details.

@@ -1,0 +1,109 @@
+
+
+
+                               LARRY 5 -- DEMO
+
+
+
+Mostly do simultaneous loads while text displayed.
+
+Keep track of load times by storing sysTime as soon as text is displayed,
+set targetTime, display next segment only when sysTime > targetTime.
+
+"Black Screen" below could (should) refer to a non-bitmap, quickly drawable
+screen.
+
+
+
+BLACK SCREEN
+	Display text on screen in some interesting font, with short pauses
+long enough to read text.
+	Small font #1, high:
+		"He's back and..."
+	Big, scary font #2:
+		 "HE'S YOUR WORST NIGHTMARE!"
+	Medium font #3 below (at angles?):
+		"Sylvester Stallone?"
+		"Freddie Krueger?"
+		"Dan Quayle?"
+
+	(wipe screen to black)
+
+
+BLACK SCREEN
+	Screen should be parallel to above screen.
+	Small font #1, high:
+		"No, even worse, girls!  It's"
+	Big fun font #5:
+		"Leisure Suit Larry"
+	Medium font #3 again:
+		"Back for Episode 4,"
+		"which he calls Larry 5!"
+
+
+TITLE SCREEN
+	Start scene as
+		"Leisure Suit Larry"
+		"Passionate Patti Does A Little Undercover Work"
+	show 5 dropping with a bang
+
+
+BEST PATTI PIC
+		"Teamed up again, Passionate Patti and Larry
+		 bring new meanings to the the term
+		 \"INTERACTIVE SOFTWARE!\""
+
+
+IRIS IN TO BLACK SCREEN
+	Display while loading PornProd pic; in small font:
+		"Larry's in the entertainment industry now,
+		 working on a new syndicated television show..."
+
+
+PORNPRODCORP PIC
+		"America's Sexiest Home Videos"
+
+
+IRIS IN TO BLACK SCREEN
+	Display while loading Milken pic; in small font:
+		"Larry's job:  to find the show's hostess,
+		 the sexiest woman in America!"
+
+
+MICHELLE MILKEN TONGUING
+		"Learn what Larry finds attractive in women..."
+			(Tongue extends, plucks cherry)
+
+
+IRIS IN TO BLACK SCREEN
+	Display during Gyno Pic loading; in small font:
+		"But, because you play both as
+		 Leisure Suit Larry AND as Passionate Patti,
+		 you also get to see things from a woman's perspective..."
+
+
+GYNO TABLE PIC
+			(doctor drops down below sheet)
+
+
+IRIS IN TO BLACK SCREEN
+		"Remember Designer Al Lowe's slogan:
+
+
+BEST BABE PIC
+	Display text up high, above face:
+		\"BETTER BABES THRU TECHNOLOGY!\""
+			(she licks her lips, blows a kiss, and winks)
+
+
+TITLE SCREEN AGAIN
+		"Leisure Suit Larry 5 is available at
+		 swinging software stores everywhere!"
+
+
+
+
+Add ??
+	references to FBI and undercover work?
+	meanwhiles/dreams/transisitons/subplots?
+

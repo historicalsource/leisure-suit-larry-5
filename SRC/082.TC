@@ -1,0 +1,68 @@
+;**
+;**   Logics for Room 082 -- Text for Using the DataPak2Hammer on _____
+;**
+;**   LSL5:  Passionate Patti Does A Little Undercover Work
+;**		    Copyright 1991
+;**		    by Al Lowe
+;**
+;**   Humorous Text By:  Josho
+;**
+;**   Last Update:  August 25, 1991
+;**
+
+
+(script# 082)
+
+(DataPak2Hammer
+	;**    iDataMan			    80
+	" "
+
+	;**    iDataPak1Biaz			81
+	"A terrific space-saving idea, but technologically unfeasible."
+
+	;**    iDataPak2Hammer		   82
+	"Click the OK button to close this window."
+
+	;**    iFax1ReverseBiaz		83
+	"You consider wrapping the DataPak in the Reverse Biaz fax, but
+the DataPak's DuroPlex\05 plastic shell makes it impervious to the
+elements anyway."
+
+	;**    iChampagne			84
+	"Just the thought of dipping the DataPak into the champagne makes
+you a little giggly."
+
+	;**    iGoldRecord			85
+	"Unfortunately, the gold record contains only analog information."
+
+	;**    iCassetteTape			86
+	"Don't confuse your DataMan with a lowly cassette recorder."
+
+	;**    iFax2PCHammer			87
+	"In side-by-side comparisons, nine out of ten consumers preferred
+the DataPak version of P. C. Hammer's information."
+
+	;**    iLetterOpener			88
+	"You strike the letter opener several times with your DataPak.
+Yep, it's a real, solid letter opener!"
+
+	;**    iDeskKey			  89
+	"Your DataPak isn't locked."
+
+	;**    iFolderOfEvidence		90
+	"Since there's no evidence in the DataPak, it doesn't belong in
+the evidence folder."
+
+	;**    iPhotocopies			91
+	"You may damage the photocopies if you use them to wrap up the
+DataPak."
+
+	;**    iReelToReelTape		 92
+	"These two are incompatible information storage devices."
+
+	;**    iBra				93
+	"Ordinarily, you'd have no problem tucking the DataPak into your
+bra (in fact, you'd probably enjoy it).  But hiding items in this bra
+presents an insurmountable logistical problem."
+
+)

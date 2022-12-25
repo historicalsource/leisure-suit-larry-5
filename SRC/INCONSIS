@@ -1,0 +1,23 @@
+Turn all "Patti" or "Larry" talking TPrint statements into (Say LARRY or
+(Say PATTI.  
+
+Search through all files for "view*[0-9]" to find any views used within
+a scene.  Preload them in room init (unless there's a good reason why you
+should NOT do so).
+
+Search through every file for the room's lookStr.  Add one if it's not there!
+
+Look for pictures that have been touched up with black lines around the edges.
+They need priorities added to the fixed portions.
+
+Talkers need their text windows sized/moved appropriately so that the window
+fits on the screen without being overwritten by the talker's image, etc.
+
+Grep for "(Points", be sure they all have "ptsWhatever" and those that
+need a flag have a "pfWhatever".  Comment out the code if you don't want
+to bother checking out POINTS.SH.
+
+Search for conditions where you might have a script trigger while another
+is taking place.  Be suspicious of scripts that don't have HandsOff in their
+first state!
+

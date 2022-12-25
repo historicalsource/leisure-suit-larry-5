@@ -1,0 +1,438 @@
+LARRY 5                           VIEW.LIST
+               Passionate Patti does a little undercover work
+
+*********************************EVERYWHERE STUFF****************************
+
+WK# INT. R16 F16 F256
+(8) (MM) ( ) (x) ( )  view.000 Larry walking-standing(normal)
+(6) (MM) (x) ( ) ( )  view.001 Larry "             " (smallest)
+(6) (MM) (x) ( ) ( )  view.002 Larry "             " (smaller)          
+( ) (  ) ( ) ( ) ( )  view.003 Larry "             " (larger)
+(6) (MM) (x) ( ) ( )  view.011 Larry & recharger
+(8) (MM) (x) ( ) ( )  view.020 Patti walking-standing(normal)
+(6) (MM) (x) ( ) ( )  view.021 Patti "  	     " (smallest)
+(6) (MM) (x) ( ) ( )  view.022 Patti "             " (smaller)          
+( ) (  ) ( ) ( ) ( )  view.023 Patti "             " (larger)
+(6) (MM) (x) ( ) ( )  view.024 Patti in the dark
+(6) (MM) (x) ( ) ( )  view.025 Patti with black face
+(6) (MM) (x) ( ) ( )  view.026 Patti wearing hammer pants
+( ) (  ) ( ) ( ) ( )  view.040 Recharger plugged into outlet
+( ) (  ) ( ) ( ) ( )  view.041 Camcorder plugged into recharger plugged into 
+( ) (  ) ( ) ( ) ( )  view.090 Touch Tone Dialer pushbuttons 
+
+*********************************HOLLYWOOD***********************************
+
+WK# INT. R16 F16 F256 OPENING LARRY CARTOON
+( ) (  ) ( ) ( ) ( )  view.120 Mob Boss office slide show
+( ) (  ) ( ) ( ) ( )  view.122 Mob Flunkee #1
+( ) (  ) ( ) ( ) ( )  view.123 Mob Flunkee #2
+( ) (  ) ( ) ( ) ( )  view.124 Mob Boss
+( ) (  ) ( ) ( ) ( )  view.125 six months later...
+( ) (  ) ( ) ( ) ( )  view.130 Mr. Bigg close up facial animation
+
+WK# INT. R16 F16 F256 OFFICE OF THE PRES. PORN PROD CORP.
+(8) (MM) (x) ( ) ( )  view.141 Larry with coffee pot
+( ) (  ) ( ) ( ) ( )  view.142 PPC Flunkee #1 speaks
+( ) (  ) ( ) ( ) ( )  view.143 PPC Flunkee #2 speaks
+( ) (  ) ( ) ( ) ( )  view.144 Filthy	McNasty speaks 
+( ) (  ) ( ) ( ) ( )  view.145 McNasty gets scalded-screams
+( ) (  ) ( ) ( ) ( )  view.146 Larry cracks pot
+
+WK# INT. R16 F16 F256 MCNASTY AND LARRY 2 SHOT
+( ) (  ) ( ) ( ) ( )  view.150 McNasty animation
+( ) (  ) ( ) ( ) ( )  view.151 Larry animation
+  
+WK# INT. R16 F16 F256 PORN PROD CORP LOBBY
+( ) (  ) ( ) ( ) ( )  view.160 scene stuff
+(8) (MM) (x) ( ) ( )  view.162 coffee emanating thru McNasty office door
+
+WK# INT. R16 F16 F256 LARRY'S WORKROOM
+( ) (  ) ( ) ( ) ( )  view.170 scene stuff
+( ) (  ) ( ) ( ) ( )  view.171 Larry scene specific
+
+WK# INT. R16 F16 F256 FILE ROOM
+( ) (  ) ( ) ( ) ( )  view.180 Scene Stuff
+( ) (  ) ( ) ( ) ( )  view.181 Larry scene specific
+
+WK# INT. R16 F16 F256 PORN PROD CORP (exterior)
+( ) (  ) ( ) ( ) ( )  view.190 scene stuff
+( ) (  ) ( ) ( ) ( )  view.191 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.192 Fountain
+
+*********************************GENERIC LIMO'S AND AIRPORT*****************
+
+WK# INT. R16 F16 F256 
+( ) (  ) ( ) ( ) ( )  view.200 Limo Interior scene stuff
+( ) (  ) ( ) ( ) ( )  view.201 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.202 Patti scene specific
+( ) (  ) ( ) ( ) ( )  view.203 Driver-Male
+( ) (  ) ( ) ( ) ( )  view.204 Driver-Female
+( ) (  ) ( ) ( ) ( )  view.205 TV Picture
+(8) (HM) (x) ( ) ( )  view.206 Aquarium
+( ) (  ) ( ) ( ) ( )  view.215 Meanwhile.. McNasty speaks
+( ) (  ) ( ) ( ) ( )  view.217 Meanwhile.. McNasy worried
+( ) (  ) ( ) ( ) ( )  view.220 Meanwhile.. CANE President
+( ) (  ) ( ) ( ) ( )  view.222 Meanwhile.. CANE Flunkee #1
+( ) (  ) ( ) ( ) ( )  view.225 Meanwhile.. CANE Flunkee #1 with $$$
+
+WK# INT. R16 F16 F256 PATTI DREAMS OF........
+( ) (  ) ( ) ( ) ( )  view.230 Donald Tramp scene stuff
+( ) (  ) ( ) ( ) ( )  view.235 Wild Willy Gates scene stuff
+( ) (  ) ( ) ( ) ( )  view.236 Patti & Willy wriggling 
+
+WK# INT. R16 F16 F256 SCROOGE MC DUCK
+( ) (  ) ( ) ( ) ( )  view.240 scene stuff
+( ) (  ) ( ) ( ) ( )  view.241 Patti wriggling in money
+
+WK# INT. R16 F16 F256 AIRPORTS
+( ) (  ) ( ) ( ) ( )  view.250 Airport exterior scene stuff
+( ) (  ) ( ) ( ) ( )  view.255 ATM Boarding pass flashing lights
+
+WK# INT. R16 F16 F256 AIRPORT LOBBY WEST
+( ) (  ) ( ) ( ) ( )  view.260 Generic
+( ) (  ) ( ) ( ) ( )  view.261 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.262 NYC specific
+( ) (  ) ( ) ( ) ( )  view.264 Atlantic city specific
+( ) (  ) ( ) ( ) ( )  view.265 Miami specific
+
+WK# INT. R16 F16 F256 AIRPORT LOBBY CENTER
+( ) (  ) ( ) ( ) ( )  view.270 generic
+( ) (  ) ( ) ( ) ( )  view.273 NYC specific
+( ) (  ) ( ) ( ) ( )  view.274 Atlantic City specific
+( ) (  ) ( ) ( ) ( )  view.275 Miami specific
+(7) (MM) (x) ( ) ( )  view.276 Ticket Agent #1
+( ) (  ) ( ) ( ) ( )  view.277 Ticket Agent #2
+
+WK# INT. R16 F16 F256 AIRPORT LOBBY EAST
+( ) (  ) ( ) ( ) ( )  view.280 Genric
+( ) (  ) ( ) ( ) ( )  view.284 Atlantic city specific
+( ) (  ) ( ) ( ) ( )  view.285 Miami specific
+
+WK# INT. R16 F16 F256 CHARTREUSE CARPET VIP LOUNGE
+(8) (HM) (x) ( ) ( )  view.290 Scene stuff
+( ) (  ) ( ) ( ) ( )  view.291 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.295 Reporters moving etc. 
+( ) (  ) ( ) ( ) ( )  view.297 Misc. reporters & people
+
+*********************************GENERIC AIRPLANE****************************
+
+WK# INT. R16 F16 F256 TAKEOFF (Also landing)
+( ) (  ) ( ) ( ) ( )  view.310 generic airport add to pics
+(8) (HM) (x) ( ) ( )  view.311 Larry's funny landing animation 
+
+WK# INT. R16 F16 F256 U.S MAP
+( ) (  ) ( ) ( ) ( )  view.315 scene stuff
+
+WK# INT. R16 F16 F256 SITTING IN FIRST CLASS
+( ) (  ) ( ) ( ) ( )  view.320 Scene stuff
+( ) (  ) ( ) ( ) ( )  view.321 Larry's facial reactions
+( ) (  ) ( ) ( ) ( )  view.322 Dream bubbles
+( ) (  ) ( ) ( ) ( )  view.323 Larry squeezing his nut bags
+( ) (  ) ( ) ( ) ( )  view.324 Larry spilling his drink on his lap
+( ) (  ) ( ) ( ) ( )  view.325 Larry pushing up his tray
+
+                      LARRY DREAMS OF PATTI.........
+WK# INT. R16 F16 F256 IN ATHENS REVERSE MED. CLOSE UP
+( ) (  ) ( ) ( ) ( )  view.330 Patti playing at piano 
+
+WK# INT. R16 F16 F256 IN ATHENS LONG SHOT
+( ) (  ) ( ) ( ) ( )  view.335 Patti playing piano
+
+WK# INT. R16 F16 F256 IN ATHENS REVERSE
+( ) (  ) ( ) ( ) ( )  view.340 scene stuff
+( ) (  ) ( ) ( ) ( )  view.341 Patti scene specific 
+
+WK# INT. R16 F16 F256 AFTER ATHENS
+( ) (  ) ( ) ( ) ( )  view.345 Patti in Fab. Baker Boys
+( ) (  ) ( ) ( ) ( )  view.346 Larry in Fab. Baker Boys
+
+WK# INT. R16 F16 F256 IN VENICE #1
+( ) (  ) ( ) ( ) ( )  view.350 scene stuff
+( ) (  ) ( ) ( ) ( )  view.351 Larry gondolier
+( ) (  ) ( ) ( ) ( )  view.352 Gondola
+
+WK# INT. R16 F16 F256 IN VENICE #2
+( ) (  ) ( ) ( ) ( )  view.355 scene stuff
+( ) (  ) ( ) ( ) ( )  view.356 Patti & Larry stroking in gondola
+
+WK# INT. R16 F16 F256 AT TAJ MAHAL
+( ) (  ) ( ) ( ) ( )  view.370 scene stuff
+( ) (  ) ( ) ( ) ( )  view.371 Patti scene specific
+
+WK# INT. R16 F16 F256 AFTER TAJ MAHAL
+( ) (  ) ( ) ( ) ( )  view.375 scene stuff
+( ) (  ) ( ) ( ) ( )  view.376 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.377 Patti scene specific
+
+WK# INT. R16 F16 F256 CASABLANCA 
+( ) (  ) ( ) ( ) ( )  view.375 scene stuff
+( ) (  ) ( ) ( ) ( )  view.376 Larry as Bogie
+( ) (  ) ( ) ( ) ( )  view.377 Patti scene specific
+
+WK# INT. R16 F16 F256 DYING IN FIRST CLASS
+( ) (  ) ( ) ( ) ( )  view.386 Larry scene specific
+
+WK# INT. R16 F16 F256 FLIGHT STIMULATOR
+( ) (  ) ( ) ( ) ( )  view.390 scene stuff
+( ) (  ) ( ) ( ) ( )  view.391 Larry in lower left window
+( ) (  ) ( ) ( ) ( )  view.392 Airliner in lower right window
+
+*********************************WASHINGTON D.C.****************************
+
+                      OPENING PATTI CARTOON
+WK# INT. R16 F16 F256 THE PIANO PIT
+( ) (  ) ( ) ( ) ( )  view.400 scene stuff
+
+WK# INT. R16 F16 F256 CLUB OWNERS OFFFICE
+(8) (HM) (x) ( ) ( )  view.406 Patti scene specific
+(7) (HM) (x) ( ) ( )  view.407 club owner
+
+WK# INT. R16 F16 F256 DARK ALLEY EXTERIOR  
+( ) (  ) ( ) ( ) ( )  view.410 scene stuff
+( ) (  ) ( ) ( ) ( )  view.412 Desmond
+
+WK# INT. R16 F16 F256 DARK ALLEY 2 SHOT 
+( ) (  ) ( ) ( ) ( )  view.415 Desmond facial animation
+( ) (  ) ( ) ( ) ( )  view.416 Patti facial animation
+
+                                 FBI HEADQUARTERS
+WK# INT. R16 F16 F256 INSPECTOR DESMONDS OFFICE 2 SHOT
+( ) (  ) ( ) ( ) ( )  view.420 Desmond facial animation
+( ) (  ) ( ) ( ) ( )  view.421 Patti facial animation
+
+WK# INT. R16 F16 F256 FBI EXTERIOR
+( ) (  ) ( ) ( ) ( )  view.425 scene stuff
+
+WK# INT. R16 F16 F256 COMMANDER TWITS WORKSHOP WEST
+( ) (  ) ( ) ( ) ( )  view.430 scene stuff
+(7) (MM) (x) ( ) ( )  view.432 Twit walking gesturing etc.
+( ) (  ) ( ) ( ) ( )  view.433 Vibrator Man working smoking
+(8) (MM) (x) ( ) ( )  view.434 Vibrator Man inset animation
+( ) (  ) ( ) ( ) ( )  view.435 Bra Man working smoking
+(8) (MM) (x) ( ) ( )  view.436 Bra Man inset animation
+( ) (  ) ( ) ( ) ( )  view.437 Background cell for inset animation
+
+WK# INT. R16 F16 F256 COMMANDER TWITS WORKSHOP EAST
+( ) (  ) ( ) ( ) ( )  view.440 scene stuff single cells
+( ) (  ) ( ) ( ) ( )  view.441 Patti scene specific 
+( ) (  ) ( ) ( ) ( )  view.442 Twit using computer
+( ) (  ) ( ) ( ) ( )  view.443 Fart man
+(8) (MM) (x) ( ) ( )  view.444 Fart man inset animation
+( ) (  ) ( ) ( ) ( )  view.445 Dr. Von Pelt
+
+WK# INT. R16 F16 F256 DR. LYCUSS VON PELT'S OFFICE 
+( ) (  ) ( ) ( ) ( )  view.450 Dr. Von Pelt 
+( ) (  ) ( ) ( ) ( )  view.452 Miners helmet
+( ) (  ) ( ) ( ) ( )  view.453 Power tools
+
+WK# INT. R16 F16 F256 POST PELTING W/OFFICE FRAME
+( ) (  ) ( ) ( ) ( )  view.458 Scene stuff
+
+                                 CLOSING CARTOON
+
+WK# INT. R16 F16 F256 WHITE HOUSE DINNER LONG SHOT
+( ) (  ) ( ) ( ) ( )  view.460 Scene stuff single cells
+( ) (  ) ( ) ( ) ( )  view.461 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.462 Patti scene specific
+( ) (  ) ( ) ( ) ( )  view.463 Quayle various
+( ) (  ) ( ) ( ) ( )  view.464 Desmond various
+( ) (  ) ( ) ( ) ( )  view.465 Bigg various
+( ) (  ) ( ) ( ) ( )  view.466 SS Agent
+( ) (  ) ( ) ( ) ( )  view.467 Quayle Vignette
+
+WK# INT. R16 F16 F256 PATTI EMBRACES LARRY
+( ) (  ) ( ) ( ) ( )  view.470 Patti & Larry
+( ) (  ) ( ) ( ) ( )  view.471 Talking Heads
+
+WK# INT. R16 F16 F256 HELICOPTERING INTO THE SUNSET
+( ) (  ) ( ) ( ) ( )  view.480 Scene stuff
+( ) (  ) ( ) ( ) ( )  view.481 Additional credits
+
+*********************************NEW YORK CITY******************************
+
+WK# INT. R16 F16 F256 HARD DISK CAFE' EXTERIOR
+( ) (  ) ( ) ( ) ( )  view.500 Scene stuff single cells
+
+WK# INT. R16 F16 F256 LOBBY HDC
+( ) (  ) ( ) ( ) ( )  view.510 Scene stuff
+(8) (MM) (x) ( ) ( )  view.511 Larry scene specific
+(8) (MM) (x) ( ) ( )  view.512 Maitre D'
+(8) (MM) (x) ( ) ( )  view.513 Phone Lady
+(8) (MM) (x) ( ) ( )  view.514 Music Box
+
+WK# INT. R16 F16 F256 THE CAFE
+( ) (  ) ( ) ( ) ( )  view.540 scene specific
+( ) (  ) ( ) ( ) ( )  view.541 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.542 Michelle Milken
+
+WK# INT. R16 F16 F256 THE HERMAN HOLLERITH ROOM
+( ) (  ) ( ) ( ) ( )  view.550 Scene stuff 
+( ) (  ) ( ) ( ) ( )  view.551 Larry scene specific
+
+WK# INT. R16 F16 F256 MICHELLE MILKEN Close UP #1
+( ) (  ) ( ) ( ) ( )  view.560 Facial expressions
+( ) (  ) ( ) ( ) ( )  view.561 Michelle animation #1
+
+WK# INT. R16 F16 F256 MICHELLE MILKEN Close UP #2
+( ) (  ) ( ) ( ) ( )  view.565 Michelle animation #2
+
+WK# INT. R16 F16 F256 LARRY Close UP
+( ) (  ) ( ) ( ) ( )  view.570 quizzical face
+( ) (  ) ( ) ( ) ( )  view.571 Pleased face
+
+*********************************BALTIMORE*******************************
+
+WK# INT. R16 F16 F256 BACKSEAT PATTI
+( ) (  ) ( ) ( ) ( )  view.600 Driver groping
+( ) (  ) ( ) ( ) ( )  view.601 Patti scene specific
+
+WK# INT. R16 F16 F256 "THE SHILL BUILDING" EXTERIOR
+( ) (  ) ( ) ( ) ( )  view.610 scene stuff 
+
+WK# INT. R16 F16 F256 SHILL BUILDING LOBBY
+( ) (  ) ( ) ( ) ( )  view.620 Scene stuff
+( ) (  ) ( ) ( ) ( )  view.621 Patti scene specific
+( ) (  ) ( ) ( ) ( )  view.622 Guard various
+
+WK# INT. R16 F16 F256 DES REVER RECORDS WAITING ROOM
+( ) (  ) ( ) ( ) ( )  view.640 Scene stuff
+( ) (  ) ( ) ( ) ( )  view.642 Reverse Biaz
+
+WK# INT. R16 F16 F256 STEREO CLOSE UP
+( ) (  ) ( ) ( ) ( )  view.650 scene stuff
+
+WK# INT. R16 F16 F256 RECORDING STUDIO
+( ) (  ) ( ) ( ) ( )  view.660 scene stuff
+( ) (  ) ( ) ( ) ( )  view.661 Patti scene specific
+( ) (  ) ( ) ( ) ( )  view.662 Reverse Biaz
+
+WK# INT. R16 F16 F256 CONTROL ROOM AND SYNTH CLOSE UP
+( ) (  ) ( ) ( ) ( )  view.670 scene stuff
+( ) (  ) ( ) ( ) ( )  view.672 Reverse Biaz
+( ) (  ) ( ) ( ) ( )  view.673 Synth
+( ) (  ) ( ) ( ) ( )  view.681 Patti scene specific
+
+WK# INT. R16 F16 F256 MEANWHILE.. BACK AT THE FBI #1
+( ) (  ) ( ) ( ) ( )  view.690 scene stuff
+
+*********************************ATLANTIC CITY*******************************
+
+WK# INT. R16 F16 F256 TRAMP CASINO EXTERIOR
+( ) (  ) ( ) ( ) ( )  view.700 scene stuff
+(8) (HM) (x) ( ) ( )  view.702 casino change girl
+(8) (HM) (x) ( ) ( )  view.703 casino doorman
+
+WK# INT. R16 F16 F256 TRAMP CASINO INTERIOR EXTREME DOWNSHOT
+( ) (  ) ( ) ( ) ( )  view.710 scene stuff
+( ) (  ) ( ) ( ) ( )  view.711 Larry scene specific
+
+WK# INT. R16 F16 F256 TRAMP CASINO VIDEO POKER
+( ) (  ) ( ) ( ) ( )  view.720 scene stuff
+( ) (  ) ( ) ( ) ( )  view.722 card deck
+
+WK# INT. R16 F16 F256 TRAMP CASINO BALLROOM
+( ) (  ) ( ) ( ) ( )  view.730 scene stuff
+( ) (  ) ( ) ( ) ( )  view.731 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.732 Bouncer
+( ) (  ) ( ) ( ) ( )  view.733 Wet T shirt Contestant
+( ) (  ) ( ) ( ) ( )  view.734 Lana In Mud Wrestling Suit
+
+WK# INT. R16 F16 F256 TRAMP CASINO BALLROOM WET T SHIRT CONTESTANT
+( ) (  ) ( ) ( ) ( )  view.735 T&A close up
+
+WK# INT. R16 F16 F256 TRAMP BOARDWALK
+( ) (  ) ( ) ( ) ( )  view.741 Larry walking smallest
+( ) (  ) ( ) ( ) ( )  view.742 Larry walking smaller
+( ) (  ) ( ) ( ) ( )  view.743 Larry walking small
+( ) (  ) ( ) ( ) ( )  view.744 Larry walking normal
+( ) (  ) ( ) ( ) ( )  view.745-7 Larry skating (as in 741-4)
+( ) (  ) ( ) ( ) ( )  view.749 Lana skating normal size only
+
+WK# INT. R16 F16 F256 UNDER THE BOARDWALK
+( ) (  ) ( ) ( ) ( )  view.760 scene stuff
+( ) (  ) ( ) ( ) ( )  view.761 Larry scene specific
+
+WK# INT. R16 F16 F256 IVANA TRAMPS ROLLERBLADE RENTAL SHOP
+( ) (  ) ( ) ( ) ( )  view.770 scene stuff
+( ) (  ) ( ) ( ) ( )  view.771 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.772 Ivana Tramps Proprietor
+
+WK# INT. R16 F16 F256 LANA LUSCIOUS CLOSE UP
+( ) (  ) ( ) ( ) ( )  view.775 Lana various
+
+WK# INT. R16 F16 F256 MUD WRESTLING ARCADE GAME
+( ) (  ) ( ) ( ) ( )  view.785 scene stuff 
+(8) (HM) (x) ( ) ( )  view.786 Larry wrestling
+(8) (HM) (x) ( ) ( )  view.787 Lana wrestling
+(8) (HM) (x) ( ) ( )  view.788 Larry and Lana Wrestling
+
+WK# INT. R16 F16 F256 MUD WRESTLING MEDIUM SHOT
+( ) (  ) ( ) ( ) ( )  view.790 scene stuff
+( ) (  ) ( ) ( ) ( )  view.791 Larry and Lana scene specific
+( ) (  ) ( ) ( ) ( )  view.792 Flying clothing
+( ) (  ) ( ) ( ) ( )  view.793 Lana Sitting up 
+( ) (  ) ( ) ( ) ( )  view.794 Larry Sitting up
+
+*********************************PHILADELPHIA*******************************
+
+WK# INT. R16 F16 F256 K-RAP RADIO EXTERIOR
+( ) (  ) ( ) ( ) ( )  view.800 scene stuff
+( ) (  ) ( ) ( ) ( )  view.801 Patti in darkness smaller
+
+WK# INT. R16 F16 F256 K-RAP RADIO EXTERIOR REVERSE LONG SHOT
+( ) (  ) ( ) ( ) ( )  view.810 scene stuff
+
+WK# INT. R16 F16 F256 K-RAP RADIO LOBBY
+( ) (  ) ( ) ( ) ( )  view.820 scene stuff
+
+WK# INT. R16 F16 F256 KEYPAD CLOSE UP
+( ) (  ) ( ) ( ) ( )  view.830 Pushbuttons single cells
+
+WK# INT. R16 F16 F256 JOHN KRAPPPERS OFFICE 
+( ) (  ) ( ) ( ) ( )  view.840 Scene stuff
+( ) (  ) ( ) ( ) ( )  view.851 Patti scene specific
+
+WK# INT. R16 F16 F256 K-RAP RADIO ATRIUM
+( ) (  ) ( ) ( ) ( )  view.860 scene stuff
+
+WK# INT. R16 F16 F256 K-RAP RADIO STUDIOS
+( ) (  ) ( ) ( ) ( )  view.870 scene stuff
+( ) (  ) ( ) ( ) ( )  view.871 Patti scene specific
+
+WK# INT. R16 F16 F256 K-RAP RADIO CONTROL ROOM A & B 
+( ) (  ) ( ) ( ) ( )  view.880 scene stuff
+(8) (MM) (x) ( ) ( )  view.882 P.C Hammer
+( ) (  ) ( ) ( ) ( )  view.883 Hammer Actions
+
+WK# INT. R16 F16 F256 INSIDE CONTROL ROOM B
+( ) (  ) ( ) ( ) ( )  view.890 scene stuff
+(8) (MM) (x) ( ) ( )  view.891 Patti scene specific in Hammerpants
+
+*********************************MIAMI**************************************
+
+WK# INT. R16 F16 F256 DOC PULLIAMS DENTAL HEAVEN EXTERIOR
+( ) (  ) ( ) ( ) ( )  view.900 Scene stuff
+( ) (  ) ( ) ( ) ( )  view.901 Larry scene specific
+
+WK# INT. R16 F16 F256 DENTAL OFFICE WAITING ROOM
+( ) (  ) ( ) ( ) ( )  view.910 scene stuff
+( ) (  ) ( ) ( ) ( )  view.911 Larry scene specific w/o Doily
+( ) (  ) ( ) ( ) ( )  view.912 Larry scene specific w/Doily
+( ) (  ) ( ) ( ) ( )  view.913 Larry wearing doily
+( ) (  ) ( ) ( ) ( )  view.914 Receptionist
+
+WK# INT. R16 F16 F256 CHI CHI LAMBADA'S CUBICLE
+( ) (  ) ( ) ( ) ( )  view.920 scene stuff
+( ) (  ) ( ) ( ) ( )  view.921 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.922 Chi Chi
+( ) (  ) ( ) ( ) ( )  view.923 Chi Chi actions
+
+WK# INT. R16 F16 F256 CHI CHI LAMBADA CLOSE UP
+( ) (  ) ( ) ( ) ( )  view.930 Chi Chi Face
+
+WK# INT. R16 F16 F256 CHI CHI 7 LARRYS GYMNASTICS ROUTINE
+( ) (  ) ( ) ( ) ( )  view.940 wall cracking
+( ) (  ) ( ) ( ) ( )  view.941 Larry scene specific
+( ) (  ) ( ) ( ) ( )  view.942 Chi Chi scene specific
+
+_______________________________________________________________________

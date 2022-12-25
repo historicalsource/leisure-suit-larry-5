@@ -1,0 +1,10 @@
+TTdialer
+	handle 411, 555-1212 and 0 with lame excuses based on larryLoc
+	handle dialing a valid game phone number from the wrong location
+	implement copy protection loop 
+	
+
+r760
+	if we can, implement Larry skating badly for a while,
+	then skating better, then Lana
+

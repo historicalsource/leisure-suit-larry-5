@@ -1,0 +1,73 @@
+;**
+;**   Logics for Room 086 -- Text for Using the CassetteTape on _____
+;**
+;**   LSL5:  Passionate Patti Does A Little Undercover Work
+;**			 Copyright 1991
+;**		    by Al Lowe
+;**
+;**   Humorous Text By:  Josho
+;**
+;**   Last Update:  August 25, 1991
+;**
+
+
+(script# 086)
+
+(CassetteTape
+	;**   iDataMan				  80
+	"Attempting to play the cassette with the DataMan is like trying to
+play a sophisticated CD-ROM computer game on a clunky old 2-drive
+floppy system."
+
+	;**   iDataPak1Biaz		   81
+	"Transferring data from the cassette tape to the DataPak is far
+more difficult than simply rubbing the two items together."
+
+	;**   iDataPak2Hammer	  82
+	"Transferring data from the cassette tape to the DataPak is far
+more difficult than simply rubbing the two items together."
+
+	;**   iFax1ReverseBiaz	 83
+	"You can't use the cassette with the fax... no way!"
+
+	;**   iChampagne			84
+	"The neck of the champagne bottle is way too slender to allow the
+cassette to pass through."
+
+	;**   iGoldRecord			85
+	"Placing the cassette on the gold record for a moment, you
+ruminate on how LP manufacturers were convinced that cassettes would
+doom the LP market."
+
+	;**   iCassetteTape		   86
+	"Click the OK button to close this window."
+
+	;**   iFax2PCHammer		  87
+	"You can't use the cassette with the fax... no way!"
+
+	;**   iLetterOpener		  88
+	"Holding the letter opener vertically, you place one hole of the
+cassette over the top of the opener.  Then, by spinning the cassette
+around, you find you can manually rewind it.  Is this fun, or what?"
+
+	;**   iDeskKey				 89
+	"Holding the desk key vertically, you place one hole of the
+cassette over the key. Then, by spinning the cassette around, you
+find you can manually rewind it.  This sort of resourcefulness must
+be why they chose you to be an agent!"
+
+	;**   iFolderOfEvidence	90
+	"Keep the cassette with you."
+
+	;**   iPhotocopies		91
+	"Don't mix the cassette with the photocopies."
+
+	;**   iReelToReelTape	 92
+	"You can't splice the cassette tape to the reel-to-reel tape."
+
+	;**   iBra					93
+	"The cassette would make your bra bulge (even more than it's
+bulging already)."
+
+)
+

@@ -1,0 +1,66 @@
+;**
+;**   Logics for Room 090 -- Text for Using the FolderOfEvidence on _____
+;**
+;**   LSL5:  Passionate Patti Does A Little Undercover Work
+;**		    Copyright 1991
+;**		    by Al Lowe
+;**
+;**   Humorous Text By:  Josho
+;**
+;**   Last Update:  August 25, 1991
+;**
+
+
+(script# 090)
+
+(FolderOfEvidence
+	;**   iDataMan				   80
+	"You lay the folder on the DataMan momentarily, but with Krapper's
+secretary hanging about outside, you need to find a more productive
+use of your time."
+
+	;**   iDataPak1Biaz		    81
+	"The folder balances precariously on top of the DataPak. So what?"
+
+	;**   iDataPak2Hammer	  82
+	"The folder balances precariously on top of the DataPak. So what?"
+
+	;**   iFax1ReverseBiaz	 83
+	"Now is not the time to shuffle papers, Patti... you've got to get
+out of here with some sort of evidence!"
+
+	;**   iChampagne			 84
+	"You can't hide the folder in the champagne bottle."
+
+	;**   iGoldRecord			85
+	"The gold record won't hide the folder effectively."
+
+	;**   iCassetteTape		    86
+	"You ARE getting desperate, aren't you, Patti?"
+
+	;**   iFax2PCHammer		    87
+	"Now is not the time to shuffle papers, Patti... you've got to get
+out of here with some sort of evidence!"
+
+	;**   iLetterOpener		    88
+	"The folder doesn't do anything with the letter opener."
+
+	;**   iDeskKey				   89
+	"You can't use the folder with the desk key."
+
+	;**   iFolderOfEvidence	90
+	"Click the OK button to close this window."
+
+	;**   iPhotocopies		91
+	"No, wait... keep the photocopies and put the folder back in his
+desk!"
+
+	;**   iReelToReelTape	 92
+	"That's a useless combination."
+
+	;**   iBra					93
+	"The folder won't fit in your bra.  In fact, YOU barely fit in your
+bra!"
+
+)
+

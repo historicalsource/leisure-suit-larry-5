@@ -1,0 +1,298 @@
+**FILE: 790.SC
+  261: 				(Points ptsGotSkatesWithCamcorder pfGotSkatesWithCamcorder)
+  299: 				(Points ptsReturnedSkates pfReturnedSkates)
+  455: 								(Points ptsGotSkatesWithMoney pfGotSkatesWithMoney)
+
+
+
+
+**FILE: 620.SC
+  369: 						 	(Points (- ptsDatamanSol ptsSeeOffice) pfDatamanSol)
+  371: 							(Points ptsDatamanSol pfDatamanSol)
+  404: 						 	(Points (- ptsFaxSol ptsSeeOffice) pfFaxSol)
+  406: 							(Points ptsFaxSol pfFaxSol)
+  997: 				(Points ptsSeeOffice pfSeeOffice)
+ 1005: 				(Points ptsSeeOffice pfSeeOffice)
+
+
+
+
+**FILE: 270.SC
+  748: 				(Points ptsStoleQuarter fGotQuarterNY)
+
+
+
+
+**FILE: 250.SC
+  576: 					(Points 3 )
+
+
+
+
+**FILE: CHARGER.SC
+  88: 				(Points ptsPluggedInCharger pfPluggedInCharger)
+  136: 				(Points ptsPutCorderInCharger pfPutCorderInCharger)
+  189: 				(Points ptsUnpluggedCharger pfUnpluggedCharger)
+
+
+
+
+**FILE: 190.SC
+  325: 				(Points ptsSawChesty pfSawChesty)
+
+
+
+
+**FILE: 430.SC
+  843: 		(Points ptsVibman pfVibman)
+  863: 			(Points ptsBraman pfBraman)
+
+
+
+
+**FILE: 170.SC
+  166: 							(Points ptsGotCharger pfGotCharger)
+  221: 				(Points ptsGotVideotapes pfGotVideotapes)
+  273: 						(Points ptsDegaussedTapes pfDegaussedTapes)
+  565: 				(Points ptsSterilizedHands pfSterilizedHands)
+
+
+
+
+**FILE: 640.SC
+  331: 					(Points ptsGetRecord pfGetRecord)
+  411: 				(Points ptsHeard78R pfHeard78R)
+  461: 				(Points ptsHeard33R pfHeard33R)
+  524: 				(Points ptsHeard78 pfHeard78)
+  552: 				(Points ptsHeard33 pfHeard33)
+
+
+
+
+**FILE: INVENTRY.SC
+  323: 						(Points ptsStartedCamcorder pfStartedCamcorder)
+  361: 						(Points ptsTapeIntoCamcorder pfTapeIntoCamcorder)
+  649: 					(Points ptsOpenedFolderMM pfOpenedFolderMM)
+  838: 				(Points ptsReadMagazine pfReadMagazine)
+  905: 					(Points ptsOpenedDayTrotter pfOpenedDayTrotter)
+ 1144: 						(Points ptsInsertedDataPak pfInsertedDataPak)
+ 1161: 						(Points ptsInsertedDataPak pfInsertedDataPak)
+ 1297: 					(Points ptsOpenedFolderLL pfOpenedFolderLL)
+ 1612: 					(Points ptsOpenedFolderCC pfOpenedFolderCC)
+ 1897: 				(Points ptsLookInFolder	pfLookInFolder)
+ 2000: 				(Points ptsLookedBra pfLookedBra)
+
+
+
+
+**FILE: 160.SC
+  376: 				(Points ptsTookPot pfTookPot)
+  590: 		(Points ptsDrankWater pfDrankWater)
+ 1019: 				(Points ptsSawTitty pfSawTitty)
+
+
+
+
+**FILE: 445.SC
+  166: 						(Points ptsGotDataMan pfGotDataMan)
+  171: 						(Points ptsGotPak1 pfGotPak1)
+  176: 						(Points ptsGotPak2 pfGotPak2)
+
+
+
+
+**FILE: 920.SC
+  527: 					(Points ptsRecordedCC)
+
+
+
+
+**FILE: 905.SC
+  585: 		(Points ptsTookDoily pfGotDoily)
+ 1227: 						(Points ptsWoreDoily pfWoreDoily)
+ 1242: 						(Points ptsCalledDoc pfCalledDoc)
+
+
+
+
+**FILE: 750.SC
+  298: 					(Points ptsRecordedLL pfRecordedLL)
+
+
+
+
+**FILE: 700.SC
+  835: 					(Points ptsChangeGirl pfChangeGirl)
+
+
+
+
+**FILE: 320.SC
+  785: 				(Points ptsTookMagazine)
+
+
+
+
+**FILE: 440.SC
+  838: 		(Points ptsFartman pfFartman)
+
+
+
+
+**FILE: 850.SC
+  494: 				(Points 10)
+
+
+
+
+**FILE: 890.SC
+  911: 				(Points ptsShatteredGlass)
+  985: 				(Points 20 )
+ 1012: 				(Points ptsActivatedRecorder pfActivatedRecorder)
+ 1164: 				(Points ptsGetRecordedTape pfGetRecordedTape)
+ 1272: 				(Points ptsHeard2Live2Screw pfHeard2Live2Screw)
+
+
+
+
+**FILE: 500.SC
+  157: 				(Points ptsPissed pfPissed)
+
+
+
+
+**FILE: 910.SC
+ 1164: 				(Points ptsWorkedOutWithChiChi fWorkedOutWithChiChi)
+
+
+
+
+**FILE: 510.SC
+  300: 					(Points ptsCalledChecker pfCalledChecker)
+  441: 					(Points ptsGotLarryTape pfGotLarryTape)
+  502: 				(Points ptsGotHyattTape pfGotHyattTape)
+  768: 				(Points ptsGotLarryTape pfGotLarryTape)
+  909: 				(Points ptsGotTape pfGotTape)
+ 1232: 								(Points ptsGotSuperTape pfGotSuperTape)
+
+
+
+
+**FILE: 435.SC
+  143: 				(Points ptsGotBrassiere pfGotBrassiere)
+
+
+
+
+**FILE: 660.SC
+  828: 					(Points ptsDidSession pfDidSession)
+ 1241: 				(Points ptsChampagne pfChampagne)
+ 1546: 					(Points ptsZipperSex pfZipperSex)
+ 1548: 					(Points ptsTalkSex pfTalkSex)
+
+
+
+
+**FILE: 840.SC
+  94: 				(Points ptsGotByReceptionist)
+  232: 						(Points ptsGotLetterOpener pfGotLetterOpener)
+  810: 				(Points ptsGotKey pfGotKey)
+  891: 				(Points ptsOpenDesk pfOpenDesk)
+  982: 				(Points ptsLookDesk pfOpenDesk)
+ 1062: 				(Points ptsPickLock pfUnlockDesk)
+ 1100: 				(Points ptsUnlockDesk pfUnlockDesk)
+ 1141: 				(Points ptsGetFolder pfGetFolder)
+ 1180: 				(Points ptsLookFolder pfGetFolder)
+ 1270: 				(Points ptsMakeCopies)
+ 1329: 				(Points ptsBlowCopierUp)
+
+
+
+
+**FILE: 390.SC
+  732: 					(Points ptsSavedPlane)
+
+
+
+
+**FILE: 280.SC
+ 1441: 				(Points ptsCalledNYlimo fCalledLimo)
+ 1482: 				(Points ptsCalledMlimo fCalledLimo)
+ 1521: 				(Points ptsCalledAClimo fCalledLimo)
+ 1546: 				(Points ptsCalledGreen fCalledGreen)
+
+
+
+
+**FILE: 535.SC
+  359: 					(Points ptsRecordedMM pfRecordedMM)
+  603: 				(Points ptsGaveMMdaytrotter pfGaveMMdaytrotter)
+  627: 				(Points ptsGaveMMcards pfGaveMMcards)
+  650: 				(Points ptsGaveMMcash pfGaveMMcash)
+  781: 				(Points ptsTalkedMMintoIt pfTalkedMMintoIt)
+
+
+
+
+**FILE: 200.SC
+  767: 			 		(Points ptsTookDaytrotter)
+ 1550: 				(Points ptsTookLimoBottle)
+ 2252: 									(Points ptsToldLimoDriver pfToldLimoDriver)
+ 2278: 									(Points ptsToldLimoDriver pfToldLimoDriver)
+ 2311: 											(Points ptsToldLimoDriver pfToldLimoDriver)
+ 2340: 											(Points ptsToldLimoDriver pfToldLimoDriver)
+
+
+
+
+**FILE: 460.SC
+ 1529: 				(Points 25)
+ 1683: 						(Points 25)
+
+
+
+
+**FILE: 290.SC
+  613: 				(Points ptsUsedBoardingPass pfUsedBoardingPass)
+
+
+
+
+**FILE: 180.SC
+  223: 			 	(Points ptsGotAeroDorkCard pfGotAeroDorkCard)
+  300: 				(Points ptsGotResume pfGotResume)
+
+
+
+
+**FILE: 870.SC
+  280: 					;(Points ptsGotClothes)
+  548: 				(Points ptsWoreHammerpants)
+
+
+
+
+**FILE: 150.SC
+  581: 				(Points ptsGotCamcorder pfGotCamcorder)
+
+
+
+
+**FILE: 520.SC
+  232: 						;**	(Points ptsHollerithLaffer pfEnteredHollerith)
+  244: 						;**	(Points ptsHollerithHyatt pfEnteredHollerith)
+
+
+
+
+**FILE: PATTI.SC
+  78: 							(Points -5)
+  82: 							(Points 5)
+
+
+
+
+**FILE: 260.SC
+  556: 					(Points ptsCigaretteMachineQuarters fTookQuarters260) 			;long enough Al?!
+ 1169: 					(Points ptsPulledSlots fPulledSlots)
+

@@ -1,0 +1,91 @@
+;**
+;**	Logics for Room 052 -- Text for Using the MM'sVideotape on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  August 17, 1991
+;**
+
+
+(script# 052)
+
+(MM'sVideotape
+	;**	iCamcorder	50
+	"n/a"
+
+	;**	iBatteryCharger	51
+	"This videotape won't fit into the battery charger."
+
+	;**	iMM'sVideotape	52
+	"Click the OK button to close this window."
+
+	;**	iLL'sVideotape	53
+	"Tape, meet Tape. Tape, this is Tape."
+
+	;**	iCC'sVideotape	54
+	"Tape, meet Tape. Tape, this is Tape."
+
+	;**	iMM'sResume		55
+	"Very organized. It is logical to store the videotape in the resume
+folder. (But just don't do it, OK?)"
+
+	;**	iHDCNapkin	56
+	"The napkin has no interest in viewing the videotape."
+
+	;**	iGoldCard	57
+	"The videotape has no use for the AeroDork Gold Card."
+
+	;**	iBoardingPass			58
+	"The videotape can't use the boarding pass."
+
+	;**	iMagazine	59
+	"The In-Flight Magazine has better things to do than to watch
+videotapes."
+
+	;**	iQuarter			60
+	"The tape doesn't need your quarter. Apply it to your education."
+
+	;**	iDayTrotter		61
+	"\"No,\" the tape says, \"That's not my DayTrotter.\""
+
+	;**	iMoney		62
+	"The tape doesn't want any of your \"hot\" money."
+
+	;**	iCreditCards		63
+	"The tape doesn't accept credit cards. Call it prejudiced?"
+
+	;**	iMembershipTape	64
+	"The tape couldn't care less about your membership tape."
+
+	;**	iLL'sResume		65
+	"Very organized. It is logical to store the videotape in the resume
+folder. (But just don't do it, OK?)"
+
+	;**	iCasinoMatchbook		66
+	"Good idea. Videotape does work better with a little light!"
+
+	;**	iSilverDollar			67
+	"What were you hoping to accomplish? Don't answer, it's a rhetorical
+question."
+
+	;**	iRollerblades			68
+	"The tape doesn't skate, thank you."
+
+	;**	iCC'sResume		69
+	"Very organized. It is logical to store the videotape in the resume
+folder. (But just don't do it, OK?)"
+
+	;**	iDocPulliam'sCard	 70
+	"The tape isn't in need of oral hygiene."
+
+	;**	iGreenCard	71
+	"The tape was Made in America. It doesn't need a Green Card."
+
+	;**	iDoily		72
+	"The tape looks very feminine against the pretty little doily."
+
+)

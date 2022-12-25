@@ -1,0 +1,99 @@
+;**
+;**	Logics for Room 063 -- Text for Using the CreditCards on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  August 17, 1991
+;**
+
+
+(script# 063)
+
+(CreditCards
+	;**	iCamcorder		50
+	"You can't possibly record auditions on credit cards.  The magnetic
+stripes are far too small."
+
+	;**	iBatteryCharger		51
+	"The credit cards simply fall off the battery charger."
+
+	;**	iMM'sVideotape	52
+	"The videotape will accept only Opening and Closing credits."
+
+	;**	iLL'sVideotape	53
+	"The videotape will accept only Opening and Closing credits."
+
+	;**	iCC'sVideotape	54
+	"The videotape will accept only Opening and Closing credits."
+
+	;**	iMM'sResume		55
+	"The credit cards don't have Michelle's name on them, so why put them in
+her resume?"
+
+	;**	iHDCNapkin		56
+	"You attempt to wrap the credit cards in the napkin, but then you fail to
+see what purpose that would serve."
+
+	;**	iGoldCard	57
+	"Yes, the credit cards are roughly the same size as the Gold Card."
+
+	;**	iBoardingPass	58
+	"The boarding pass is already paid for."
+
+	;**	iMagazine	59
+	"The wad of credit cards clearly won't fit in the In-Flight Magazine."
+
+	;**	iQuarter	60
+	"You lay the credit cards precariously on the quarter, then remove them
+again."
+
+	;**	iDayTrotter		61
+	"You just took the credit cards OUT of the DayTrotter! Why put them back
+in again?"
+
+	;**	iMoney		62
+	"Putting the credit cards together with the money gives you an immense,
+though fleeting, sense of security."
+
+	;**	iCreditCards			63
+	"Click the OK button to close this window."
+
+	;**	iMembershipTape		64
+	"Wrapping the credit cards in the membership tape is unnecessary, since
+the credit cards are bound with a rubber band."
+
+	;**	iLL'sResume		65
+	"The credit cards don't have Lana's name on them, so why put them in her
+resume?"
+
+	;**	iCasinoMatchbook	 66
+	"You put the credit cards on the matchbook for a moment just to see what
+happens. Nothing, that's what!"
+
+	;**	iSilverDollar	67
+	"The credit cards, the Tramp money... have you ever had such great cash
+flow, none of which was actually yours?"
+
+	;**	iRollerblades	68
+	"Silly, you can't wear skates with a wad of credit cards stuffed inside!"
+
+	;**	iCC'sResume		69
+	"The credit cards don't have Chi Chi's name on them, so why put them in
+her resume?"
+
+	;**	iDocPulliam'sCard	 70
+	"The wad of credit cards is giving Doc Pulliam's simple little paper
+business card an inferiority complex."
+
+	;**	iGreenCard		71
+	"Try to keep the Green Card separate; you never know when you'll need to
+whip it out in a hurry."
+
+	;**	iDoily		72
+	"The wad of credit cards looks ludicrous sitting on the doily."
+
+)

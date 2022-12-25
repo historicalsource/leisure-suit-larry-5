@@ -1,0 +1,107 @@
+;**
+;**	Logics for Room 056 -- Text for Using the HDCNapkin on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  September 10, 1991
+;**
+
+
+(script# 056)
+
+(HDCNapkin
+	;**	iCamcorder		50
+	"You carefully wipe the camcorder lens with the napkin, removing dust,
+fingerprints, and errant flakes of dandruff."
+
+	;**	iBatteryCharger		51
+	"With the napkin, you wipe some of your psoriasis flakes off the contacts
+of the Battery Charger."
+
+	;**	iMM'sVideotape	52
+	"You dab gingerly at the videotape with the napkin, attempting to remove
+some of the greasy fingerprints you've left all over it."
+
+	;**	iLL'sVideotape	53
+	"Using the Hard Disk Cafe napkin, you try to wipe some of your sweat off
+of the videotape."
+
+	;**	iCC'sVideotape	54
+	"You rub the videotape with your napkin and manage only to remove a few
+of your nose hairs, which somehow landed there."
+
+	;**	iMM'sResume		55
+	"There's no need to put the napkin back into Michelle's resume."
+
+	;**	iHDCNapkin		56
+	"Click the OK button to close this window."
+
+	;**	iGoldCard	57
+	"You proudly burnish the Gold Card to a gleaming shine with the napkin.
+As usual, nice buff job, Larry!"
+
+	;**	iBoardingPass	58
+	"Fruitlessly attempting to clean the boarding pass, you chide yourself
+for leaving the office without your bottle of Boarding Pass Polish."
+
+	;**	iMagazine	59
+	"No doubt the last person who read the magazine had some dreadful, fatal
+skin condition, so you endeavor to wipe the virulent bacteria off with your
+napkin."
+
+	;**	iQuarter	60
+	"Now the change gleams brightly in the sunlight, reminding you that this
+assignment marks the beginning of a brand new era of success for you!"
+
+	;**	iDayTrotter		61
+	"You attempt to remove any fingerprints that would allow the police to
+return the DayTrotter to its rightful owner."
+
+	;**	iMoney		62
+	"Good idea. You don't know where that money has been!"
+
+	;**	iCreditCards			63
+	"Being careful not to mar the magnetic stripes, you buff the credit cards
+to crystalline perfection. Have you considered doing this professionally?"
+
+	;**	iMembershipTape		64
+	"You wipe every remnant of paper-punch hole dust off the membership
+tape."
+
+	;**	iLL'sResume		65
+	"You clumsily attempt to brush your oily fingerprints off of Lana's
+resume, but only succeed in worsening those shiny smears."
+
+	;**	iCasinoMatchbook	 66
+	"You meticulously buff the head of every match in the matchbook, a
+process which you find strangely exciting, not to mention familiar."
+
+	;**	iSilverDollar	67
+	"That Trampy money now gleams brightly after a little expert polishing."
+
+	;**	iRollerblades	68
+	"After noticing all the grease in the roller skate bearings, you
+painstakingly clean off every bearing with the napkin. \"Great,\" you think
+naively, \"they'll roll much smoother now without all that gunk in there.\""
+
+	;**	iCC'sResume		69
+	"You spot a few curly hairs which have somehow found their way into Chi
+Chi's resume, so you brush them off with the napkin."
+
+	;**	iDocPulliam'sCard	 70
+	"Doc Pulliam's card is already quite spotless, and doesn't require a
+wiping by the napkin."
+
+	;**	iGreenCard		71
+	"Using the napkin, you wipe a bit of the leftover trash off the Green
+Card."
+
+	;**	iDoily		72
+	"The doily appears to have some indelible stains on it, which you don't
+care to examine too closely."
+
+)

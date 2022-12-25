@@ -1,0 +1,106 @@
+;**
+;**   Logics for Room 087 -- Text for Using the Fax2PCHammer on _____
+;**
+;**   LSL5:  Passionate Patti Does A Little Undercover Work
+;**		    Copyright 1991
+;**		    by Al Lowe
+;**
+;**   Humorous Text By:  Josho
+;**
+;**   Last Update:  September 19, 1991
+;**
+
+
+(script# 087)
+
+(public
+	rm087		0
+)
+
+(instance rm087 of Code
+	(method (init)
+		;**    iDataMan					80
+		(Print
+			"You stuff the P. C. Hammer fax into the DataMan, but somehow, the
+			DataMan fails completely to read the information stored thereupon."
+		)
+
+		;**    iDataPak1Biaz			81
+		(Print
+			"You'll make a fine mess of things if you combine P. C. Hammer's
+			data with Reverse Biaz' data."
+		)
+
+		;**    iDataPak2Hammer	   82
+		(Print
+			"The DataPak is already chock full of precious information about
+			P. C. Hammer."
+		)
+
+		;**    iFax1ReverseBiaz	  83
+		(Print
+			"Hmmm... the same jagged text, the same greyish printing, the same
+			small dotty letters along the top edge.  Yep, these are both faxes!
+			Brilliant deductive work, Patti."
+		)
+
+		;**    iChampagne			  84
+		(Print
+			"You briefly consider rolling the fax into a tube and shoving it
+			into the champagne bottle, but it seems like a waste of good
+			champagne."
+		)
+
+		;**    iGoldRecord			 85
+		(Print
+			"Something doesn't match up.  Could it be that you're confusing
+			your suspects?"
+		)
+
+		;**    iCassetteTape			86
+		(Print
+			"What were you going to do, read the fax into the cassette tape?
+			Truly pointless!"
+		)
+
+		;**    iFax2PCHammer			87
+		(Print
+			"Click the OK button to close this window."
+		)
+
+		;**    iLetterOpener			88
+		(Print
+			"You use the fax to wipe every trace of your fingerprints from the
+			letter opener. You don't score any points, but you do get some
+			self-satisfaction out of being so thoroughly and authentically
+			spyesque."
+		)
+
+		;**    iDeskKey					89
+		(Print
+			"Curiously, the desk key doesn't respond to the fax."
+		)
+
+		;**    iFolderOfEvidence	90
+		(Print
+			"The fax is hardly evidence of anything, so it doesn't belong in
+			the folder, does it?"
+		)
+
+		;**    iPhotocopies		91
+		(Print
+			"There's no evidence on the fax, so don't get it mixed up with
+			these incriminating photocopies!"
+		)
+
+		;**    iReelToReelTape	  92
+		(Print
+			"You wrap your tape in the fax. Why, you do not know!"
+		)
+
+		;**    iBra					  93
+		(Print
+			"That would undoubtedly put several large crinkles in the fax."
+		)
+	)
+)

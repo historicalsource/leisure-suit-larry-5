@@ -1,0 +1,69 @@
+;**
+;**   Logics for Room 084 -- Text for Using the Champagne on _____
+;**
+;**   LSL5:  Passionate Patti Does A Little Undercover Work
+;**			 Copyright 1991
+;**			 by Al Lowe
+;**
+;**   Humorous Text By:  Josho
+;**
+;**   Last Update:  August 25, 1991
+;**
+
+
+(script# 084)
+
+(Champagne
+	;**    iDataMan					80
+	"Pour that champagne into the expensive company DataMan and you'll
+never work for Desmond again!"
+
+	;**    iDataPak1Biaz			81
+	"The time to pour champagne is when you have things to celebrate."
+
+	;**    iDataPak2Hammer	   82
+	"Tres romantique... drinking champagne out of a DataPak."
+
+	;**    iFax1ReverseBiaz	  83
+	"You run the risk of smearing the thermal printing."
+
+	;**    iChampagne			  84
+	"Click the OK button to close this window."
+
+	;**    iGoldRecord			85
+	"Champagne of this quality could easily remove the gold paint from
+the record."
+
+	;**    iCassetteTape			86
+	"Pouring champagne on the cassette tape could make its valuable
+recorded evidence unplayable!"
+
+	;**    iFax2PCHammer			87
+	"You run the risk of smearing the thermal printing."
+
+	;**    iLetterOpener			88
+	"That would definitely make the letter opener sticky and
+suspicious.  You don't want to risk it."
+
+	;**    iDeskKey					89
+	"A dousing of champagne would rinse off some of the humus from the
+tree's planter, but it wouldn't improve the desk key's
+functionality."
+
+	;**    iFolderOfEvidence	90
+	"Champagne all over the evidence?!  Whose side are you on,
+anyway?"
+
+	;**    iPhotocopies		91
+	"The cheap champagne will wash away the toner and leave you with
+nothing!"
+
+	;**    iReelToReelTape	 92
+	"Are you trying to sabotage your mission?  Champagne will ruin the
+reel-to-reel tape!"
+
+	;**    iBra					 93
+	"Oooh, kinky! But it might rust your firing chambers."
+
+)
+

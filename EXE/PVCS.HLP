@@ -1,0 +1,397 @@
+*MENU HELP
+Menu Help
+
+The following keys are recognized:
+
+<F1>           Help              <Alt F1>   Zoom Help Window
+<Home>         First item        <End>      Last item     
+<left arrow>   Next left item    <Enter>    Select item
+<right arrow>  Next right item   <Esc>      Back up one level
+*PULLDOWN HELP
+Menu Help
+
+The following keys are recognized:
+
+<F1>          Help               <Alt F1>   Zoom Help Window
+<Home>        First item         <End>      Last item     
+<up arrow>    Next upper item    <Enter>    Select item
+<down arrow>  Next lower item    <Esc>      Back up one level
+*DATA HELP
+Form Editor Help
+
+The following keys are recognized:
+
+<F1>  Help                  <F2>
+<F3>  Undo                  <F4>
+<F5>  Clear field           <F6>  Clear end
+<F7>  Beginning of field    <F8>  End of field
+<F9>                        <F10> Exit
+
+Alt-<F1> while in Help:  Zoom Help Window
+
+<Home>    First field     <up>    Prev. field      <PgUp>   Prev. field
+<left>    Cursor left                              <right>  Cursor right
+<End>     Last field      <down>  Next field       <PgDn>   Next field
+
+<Tab>     Next field      Shift-<tab>   Prev. field
+<Enter>   Next field      <Esc>         Abort
+<Del>     Delete char.    <Backspace>   Destructive backspace
+<Ins>     Insert mode
+
+Next field        <Enter>, <Tab>, <PgDn>, <Down-arrow>
+Previous field    <PgUp>, <Shift-tab>, <Up-arrow>
+First field       <Home>
+Last field        <End>
+Begin of field    <F7>
+End of field      <F8>
+Cursor left       <Left-arrow>
+Cursor right      <Right-arrow>
+Exit              <F10>
+Abort             <Esc>
+*EDIT HELP
+Text Editor Help
+<left arrow>               Move cursor left one character
+<right arrow>              Move cursor right one character
+<up arrow>                 Move cursor up one line
+<down arrow>               Move cursor down one line
+<F7> or <Home>             Move cursor to first character of line
+<F8> or <End>              Move cursor to last character of line
+<PgUp>                     Move one page toward beginning of edit buffer
+<PgDn>                     Move one page toward end of edit buffer
+Ctrl-<Home>                Move cursor to first character of edit buffer
+Ctrl-<End>                 Move cursor to last character of edit buffer
+<F4> or Ctrl-X             Clear to the left of the cursor
+<F5> or Ctrl-L             Clear entire line
+<F6> or Ctrl-A             Clear from the cursor to the right
+<Ins>                      Toggle between insert mode and overtype mode
+<backspace>                Delete the character to the left of the cursor
+<Del> or Ctrl-F            Delete the character under the cursor
+<Esc>                      Abort the edit session (changes lost)
+<F10> or Ctrl-D or Ctrl-Z  Exit the edit session (changes saved)
+<F1>                       Display this help text
+Alt-<F1> (while in Help)   Zoom Help window
+*Configuration Menu
+The Configuration menu entry selects the form that allows various system
+configuration parameters to be viewed and/or modified.
+*Logfile Menu
+The Logfile menu entry selects the sub-menu that allows logfiles
+(the revision archives) to be manipulated.  Logfiles may be created
+modified, renamed, etc.
+*Revision Menu
+The Revision menu entry selects the sub-menu that allows revisions of
+files to be manipulated.  Revisions may be installed, retrieved, locked,
+unlocked, merged, etc.
+*Display Menu
+The Display menu entry selects the sub-menu that allows display of useful
+information such as revision history, revision differences, version label
+mappings, etc.
+*Execute Menu
+The Execute menu entry selects a form that allows a command to be composed
+to be sent to the operating system for execution.  This is useful for
+running external programs, copying/deleting files, etc.
+*Version Menu
+The Version menu entry selects the sub-menu that allows version labels to
+be manipulated.  They may be assigned, deleted, changed, etc.
+*Alias Menu
+The Alias menu entry selects the sub-menu that allows manipulation of
+system "aliases" which are simply shorthand for collections of file names.
+An alias can be used wherever a list of filenames can be used by giving
+its name with a leading dollar sign.  For example, the alias FILES can be
+used by typing $FILES.
+*Help Menu
+The Help menu entry displays a set of basic information for using the
+screen-based PVCS.
+*Quit Menu
+The Quit meny entry facilitates termination of the PVCS session.
+*LogfileCreate
+This menu entry selects a form that allows you to create new logfiles.
+*LogfileModify
+This menu entry selects a sub-menu that allows you to modify various
+attributes of logfiles.
+*LogfileRename
+This menu entry selects a form that allows you to rename a logfile.
+*LogfileDisplayAttributes
+This menu entry selects a form that allows you to display the attributes
+of logfiles.
+*ModifyAccessList
+This menu entry selects a form that allows you to modify the access list
+of logfiles.
+*ModifyOwner
+This menu entry selects a form that allows you to modify the owner of
+logfiles.
+*ModifyWorkfileName
+This menu entry selects a form that allows you to modify the workfile name
+that is stored in a logfile.
+*ModifyDescription
+This menu entry selects a form that allows you to modify the description
+of the workfile that is stored in a logfile.
+*ModifyProtection
+This menu entry selects a form that allows you to modify the protection
+attributes of logfiles.
+*ModifyCommentPrefix
+This menu entry selects a form that allows you to modify the comment
+prefix associated with logfiles.
+*RevisionGet
+This menu entry selects a form that allows you to extract revisions from
+logfiles.
+*RevisionPut
+This menu entry selects a form that allows you to install new revisions
+in logfiles.
+*RevisionLock
+This menu entry selects a form that allows you to place a lock on a
+revision.
+*RevisionUnlock
+This menu entry selects a form that allows you to remove a lock on a
+revision.
+*RevisionMerge
+This menu entry selects a form that allows you to merge two independent
+sets of changes to a revision.
+*DisplayAttributes
+This menu entry selects a form that allows you to display the attributes
+of logfiles.
+*DisplayChangeHistory
+This menu entry selects a form that allows you to display information
+about the revisions in logfiles.
+*DisplayDifferences
+This menu entry selects a form that allows you to display the differences
+between two revisions or files.
+*DisplayLocks
+This menu entry selects a form that allows you to display information
+about the locks on revisions in logfiles.
+*DisplayNewest
+This menu entry selects a form that allows you to display the latest
+revision on the trunk or other branch in logfiles.
+*DisplayVersionLabels
+This menu entry selects a form that allows you to display the revision
+numbers that correspond to a version label in logfiles.
+*VersionAssign
+This menu entry selects a form that allows you to assign a new version
+label to a revision in logfiles.
+*VersionRemove
+This menu entry selects a form that allows you to delete a version
+label from logfiles.
+*VersionDisplay
+This menu entry selects a form that allows you to display the revision
+numbers that correspond to a version label in logfiles.
+*VersionChange
+This menu entry selects a form that allows you to reassign a version
+label to a different revision in logfiles.
+*AliasCreate
+This menu entry selects a form that allows you to create an alias that
+can be used as a substitute for one or more filenames.
+*AliasDisplay
+This menu entry selects a form that allows you to display the values of
+existing aliases.
+*AliasEdit
+This menu entry selects a form that allows you to modify the value of an
+alias.
+*AliasRemove
+This menu entry selects a form that allows you to remove an alias from the
+alias list
+*AliasName
+Give the name of an existing alias to operate upon.
+*AliasVal
+Give the list of files to be represented by the alias.
+*Authors
+Give a list of author ids that will be allowed to perform commands that
+will modify the logfile.
+*AutoResponse
+Mark this field with a Y if you don't want to be queried by the underlying
+commands for confirmation of certain events.  If you do this, you will also
+need to supply the desired automatic response in the next field.
+*BFile
+Enter the name of the file containing the second set of revisions to the
+base file.  This file must be an ordinary file, as opposed to a logfile.
+*BaseFile
+Enter the name of the base file to which the two independent sets of
+revisions were made.  This file may be an ordinary file, or a logfile.  In
+the latter case, be sure to enter the desired revision number or version
+name if the latest trunk revision is not the one you wish to be used.
+*Cancel
+Enter a Y here if you wish to cancel processing of the current form.
+Alternately, you may press the Esc key to effect the same results.
+*DefCfg
+Normally, PVCS commands use the configuration file named VCS.CFG in the
+current directory, if it exists, or the file named by the environment
+variable VCSCFG, tried in that order.  With this field, you can choose
+to specify a different configuration file or specify that no configuration
+file be read at all.
+*Cfgfile
+Specify the name of the configuration file that you want the underlying
+PVCS commands to read.  If you wish that no configuration file be read,
+leave the field blank.
+*CheckLock
+If you enter a Y here, you will be required to have a revision locked
+before you will be allowed to PUT a new revision.  You obtain a lock by
+doing a Revision Get and request a lock or by doing a Revision Lock.
+*CmtPrefix
+Enter the string of characters that will be prepended to each line of
+your change description when the $Log$ keyword is expanded.  See manual
+for more details on keyword expansion.
+*Command
+Enter the DOS command you wish to be executed.
+*Context
+Enter the number of context lines that you wish to appear before and after
+each set of changed lines in the difference output.  The value may range
+from zero to 32768.
+*Directory
+Enter the name of a directory, possibly containing a drive letter, to which
+you wish to change.  If the drive letter is not given, the directory is
+interpreted as being on the current drive.  If the drive letter is given
+and it is not the same as the current drive, the current directory on the
+given drive will be modified but this will not effect either the current
+drive or current directory.
+*Drive
+Enter the letter of the drive that you wish to become the new current drive.
+The current directory for the new drive will become the current directory.
+*Edit
+Enter a Y if you wish to initially edit or re-edit the associated text.
+*ExclLock
+Enter a Y if you wish to prevent more than one lock on a logfile at any one
+time.  Normally, multiple locks may exist in a logfile with the restriction
+that a given author may have at most one lock in a given logfile and a
+given revision may have at most one lock on it.
+*Files
+Enter the file or files upon which you wish the operations to be performed.
+The files may be specified explicitly or by use of wildcard specifications
+or aliases, in any combination.
+*ForceBranch
+Enter a Y if you wish to begin a new branch.  This is useful if the
+revision that you have locked is the tip revision of the branch because
+PVCS will normally assume that the next revision PUT by you should become
+the new tip revision.
+*ForcePut
+Enter a Y if you wish the revision to be PUT even though it may be
+unchanged.
+*IgnWhite
+Enter a Y if you wish leading and trailing whitespace to be ignored in
+the process of determining if the two revisions are different.
+*KeyExpand
+Enter a Y if you want PVCS to expand keywords in you workfile when it is
+PUT in a logfile.  Enter N if not.  Typically, you would not want keyword
+expansion on non-text files.  Also, turning off keyword expansion will
+result in slightly faster execution of the PUT command.
+*Lock
+Enter a Y if you wish the revision being retrieved to be locked.  This
+will allow you to subsequently PUT the revision after you have modified
+it.  If your logfiles are set up to not utilize locks, attempting to lock
+the revision will cause an error message.
+*LockedRevs
+Enter a Y if you wish the display to be restricted to logfile that have
+locked revisions.
+*Lockers
+Enter the author identifiers for the locks that you are interested in.
+If you don't enter any, all locks will be included.
+*LogRename
+Enter the name of the logfile to be renamed.  Renaming is a two step
+process.  First the logfile itself is renamed.  Then the workfile name
+that is stored in the logfile is changed, effectively renaming the
+associated workfile.  Note that the existing workfile, if any, is not
+affected by this process.
+*Matching
+Enter a Y if you wish the matching process used to resolve ambiguously
+specified alias names to be identical to that used by MS-DOS which uses
+the characters * and ? to mean "all remaining characters" and "any
+character" respectively.  If you enter an N, the regular expression mode
+will be used.  This process is identical to that used by the Unix
+command grep.
+*NewAlias
+Enter the new alias name.  This name will be associated with a list of
+one or more filenames.  Later, the alias name can be used, prefixed by a
+dollar sign, anywhere a filename list is allowed.
+*NewVersion
+Enter the new version name.  A version label will be attached to the
+indicated revision number, which may be specified by an explicit revision
+number or another version name.
+*OrdinaryFile
+Enter a Y if the file specified above is an ordinary file, as opposed to
+being a logfile.  If you specify that the file is an ordinary file, it
+must exist in the specified or implied directory; otherwise an error will
+occur.
+*Outfile
+Give the name of the file to which output will be routed.  Any existing
+file by that name will be lost.
+*Overwrite
+Enter a Y if you wish the existing file to be overwritten.  The previous
+content of the file, if any, will be lost.
+*OverwriteAlias
+Enter a Y if you want the existing alias, if any, to be silently
+overwritten.  The previous alias definition will be lost.
+*Owner
+Give the identifier for the person whom is to be the owner of the logfile.
+The logfile owner has the ability to modify the logfile even though others
+may not.
+*Owners
+If you wish resulting output to be restricted to that corresponding to
+logfiles having certain owners, give the list of owners.
+*Paging
+Enter a Y if you want the Worksheet Window to be paged.  In this mode,
+command output will be interrupted everytime the window fills.  To resume
+output you must then hit any key.  This mode prevents you from missing
+any important information that is displayed.
+*Proceed
+Enter a Y if you wish form processing to continue using the information
+that you have input so far.  Another way to do this is to hit the F10 key.
+If you have not provided input in fields where input is required, you will
+not be allowed to leave the form.
+*Quiet
+Enter a Y if you want the underlying PVCS commands to execute with minimal
+output.  Only error messages will be displayed.
+*Redirect
+Enter a Y if you wish command output to be redirected to a file.  If so,
+you will be required to give the name of the file to receive the output.
+*RefFile
+Enter the name of the reference file.  The difference output will be given
+in terms of how the reference file was modified to produce the target file.
+*ReplAccess
+Enter a Y if you wish the current access list to be replaced by the one
+given in this form.  Otherwise, the access list will be augmented.
+*Response
+Enter the response that you wish to be automatically supplied instead of
+you being prompted.  Enter Y for affirmative, N for negative.
+*RevisionNum
+Enter the desired revision number or branch number as appropriate.
+*SuppressNum
+Enter a Y if you wish the line number information omitted from the
+difference output.  The change type characters will still be included
+resulting in the output being just one character wider than the lines of
+the files.
+*TabSize
+Enter the number of spaces between tab stops.  The default is 4 yielding
+tab stops in columns 4, 8, 12, 16, etc.
+*TakeMessage
+Enter a Y if you wish the description to be read from a file.  If you do
+so you will be asked to supply the name of the file.
+*TgtFile
+Enter the name of the target file.  The difference output will be given
+in terms of how the reference file was modified to produce the target file.
+*Touch
+Enter Y if you wish the timestamp of the retrieved workfile(s) to be set
+to the current time and date.  Otherwise, the file(s) will have their
+original modification times, ie. that that they had at check-in time.
+*VersionName
+Enter the desired version name.  A version name is a pseudonym for a
+specific revision.
+*BranchVersion
+By attaching the version label to a branch, as opposed to a specific
+revision, the version label will always refer to the latest revision
+on a branch.
+specific revision.
+*WildAliasName
+Enter the desired alias name.  The name may contain so-called wildcard
+characters.  The applicable wildcard characters depend on the matching
+method that you have selected.  By default the MS-DOS method employing *
+and ? is used.  The alternate is the much more powerful regular expression
+method as is used in Unix.
+*Workfile
+Give the desired new workfile name.  This name will be stored in the
+logfile and will be used when a REVISION GET operation is performed if no
+explicit workfile name is then given.
+*Writable
+Enter a Y if you wish the extracted workfiles to be writable even though
+you are not locking the revisions.  This option is meaningless if you are
+locking revisions.
+*WrtProt
+Enter a Y if you wish for logfiles to be maintained as non-writable.  This
+is highly recommended as it tends to reduce the likelihood of accidental
+erasure of the highly important logfiles.

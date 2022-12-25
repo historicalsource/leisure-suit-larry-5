@@ -1,0 +1,98 @@
+;**
+;**	Logics for Room 067 -- Text for Using the SilverDollar on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  August 17, 1991
+;**
+
+
+(script# 067)
+
+(SilverDollar
+	;**	 iCamcorder	50
+	"Yes, you're supposed to shoot some tramps, but not these!"
+
+	;**	 iBatteryCharger	51
+	"That's a good way to short out the battery charger."
+
+	;**	 iMM'sVideotape	52
+	"This videotape doesn't gamble."
+
+	;**	 iLL'sVideotape	53
+	"This videotape doesn't gamble."
+
+	;**	 iCC'sVideotape	54
+	"This videotape doesn't gamble."
+
+	;**	 iMM'sResume		55
+	"That would serve no purpose... at least, not now."
+
+	;**	 iHDCNapkin	56
+	"Oh, the old fake gambling money in the napkin trick, eh? Well, IT WON'T
+WORK!"
+
+	;**	 iGoldCard	57
+	"They clash, don't they?"
+
+	;**	 iBoardingPass			58
+	"That could seriously jam the ABM."
+
+	;**	 iMagazine	59
+	"What a bad place to keep your gambling money!"
+
+	;**	 iQuarter			60
+	"Due to the effects of Reaganomics and the Laffer Curve (no relation),
+the quarter and the silver dollar are worth exactly the same amount... just
+under a nickel!"
+
+	;**	 iDayTrotter		61
+	"There's no reason to use the Tramp money with the DayTrotter...  at
+least, not in this game!"
+
+	;**	 iMoney		62
+	"Rather than giving the Tramp Money to the real money, The Donald would
+rather you gave the real money to him."
+
+	;**	 iCreditCards		63
+	"You can't pay off credit cards with fake gambling coins!"
+
+	;**	 iMembershipTape	64
+	"What a concept!"
+
+	;**	 iLL'sResume		65
+	"Keeping your gambling money in Lana's resume is a good way to lose it.
+Help take a bite out of crime!"
+
+	;**	 iCasinoMatchbook		66
+	"The Tramp money keeps slipping out of the matchbook."
+
+	;**	 iSilverDollar			67
+	"Click the OK button to close this window."
+
+	;**	 iRollerblades			68
+	"That would be very uncomfortable if you ever wanted to actually wear
+these skates!"
+
+	;**	 iCC'sResume		69
+	"Keeping your gambling money in Chi Chi's resume is a good way to lose
+it. Help take a bite out of crime!"
+
+	;**	 iDocPulliam'sCard	 70
+	"You can't use the Tramp money with Doc Pulliam's card... at least, not
+in this lifetime."
+
+	;**	 iGreenCard	71
+	"You can't use the Tramp money with the Green Card... at least, not in
+this universe."
+
+	;**	 iDoily		72
+	"My, what a pretty little display you've made, with the Tramp coins
+sitting on the lovely little doily. You should have been an interior
+decorator."
+
+)

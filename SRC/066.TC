@@ -1,0 +1,104 @@
+;**
+;**	Logics for Room 066 -- Text for Using the CasinoMatchbook on _____
+;**
+;**	LSL5:  Passionate Patti Does A Little Undercover Work
+;**				Copyright 1991
+;**				by Al Lowe
+;**
+;**	Humorous Text By:  Josho
+;**
+;**	Last Update:  August 17, 1991
+;**
+
+
+(script# 066)
+
+(CasinoMatchbook
+	;**	iCamcorder		50
+	"You carefully sterilize the camcorder by holding a lit match underneath.
+Good job!"
+
+	;**	iBatteryCharger		51
+	"Yes, scorching the battery charger is a worthwhile use of your time, you
+lovable pyromaniac!"
+
+	;**	iMM'sVideotape	52
+	"You attempt to set fire to the videotape, but just like the Cubs, it's
+not catching."
+
+	;**	iLL'sVideotape	53
+	"You attempt to set fire to the videotape, but like the Mets, it's not
+catching."
+
+	;**	iCC'sVideotape	54
+	"You attempt to set fire to the videotape, but like the Patriots, it
+won't catch."
+
+	;**	iMM'sResume		55
+	"Setting fire to Michelle's resume is a good to way get fired yourself."
+
+	;**	iHDCNapkin		56
+	"You try setting fire to the Hard Disk Cafe napkin. Say! These things are
+printed on thin sheets of asbestos, to prevent a fire hazard!"
+
+	;**	iGoldCard	57
+	"Burn the company Gold Card? Why, you fool, that'd be corporate suicide!"
+
+	;**	iBoardingPass	58
+	"If you burn this one, you're not going to get another one. So just stop
+playing with matches."
+
+	;**	iMagazine	59
+	"Congratulations, you've found the best use for In-Flight Magazines... as
+solid fuel.  But hang onto this one awhile longer, just in case."
+
+	;**	iQuarter	60
+	"You use up half the matches fruitlessly trying to melt the quarter down
+into slag."
+
+	;**	iDayTrotter		61
+	"But... but... but this is somebody's semi-important business information
+which they've stupidly left in a limousine!"
+
+	;**	iMoney		62
+	"Unless you have money to burn (which you don't), keep those matches away
+from the cash."
+
+	;**	iCreditCards			63
+	"These cards are made from Bakelite\05, so your attempts to burn them are
+fruitless."
+
+	;**	iMembershipTape		64
+	"Burn this membership tape and you're NOT going to get another one, young
+man."
+
+	;**	iLL'sResume		65
+	"Maybe your Uncle Al should just take those matches away from you before
+you burn down this whole game!"
+
+	;**	iCasinoMatchbook	 66
+	"Click the OK button to close this window."
+
+	;**	iSilverDollar	67
+	"The Tramp money doesn't burn... it just smokes delicately."
+
+	;**	iRollerblades	68
+	"Mmmm... there's nothing like the aroma of melting plastic and scorched
+leather to make you feel like a real man!"
+
+	;**	iCC'sResume		69
+	"Put down the matches. Stop the horseplay. Somebody's going to end up
+crying in a minute."
+
+	;**	iDocPulliam'sCard	 70
+	"You may need Doc's card later on, so quell those arsonist tendencies."
+
+	;**	iGreenCard		71
+	"Don't even think about burning this card. If you get deported, it may
+come in handy!"
+
+	;**	iDoily		72
+	"Burn the pretty doily? What kind of cad would do something like that?
+It's just not in you, Larry."
+
+)
